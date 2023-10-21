@@ -1,0 +1,254 @@
+@import '../../assets/styles/variable';
+
+.Home {
+  @include container;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.Left {
+  flex: 1;
+  overflow: hidden;
+  section {
+    width: 100%;
+    margin-bottom: 25px;
+    background: #fff;
+    border-radius: 2px;
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 9px 19px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #f1f1f1;
+      h3 {
+        color: $primary;
+        font-size: 19px;
+        font-weight: 500;
+      }
+      .allView {
+        font-size: 9px;
+        text-transform: uppercase;
+        color: #fff;
+        height: 18px;
+        line-height: 18px;
+        padding: 0 6px;
+        border-radius: 2px;
+        background: #3c97f3;
+        height: auto;
+        width: auto;
+      }
+      button {
+        height: 22px;
+        width: 22px;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+      }
+    }
+    > .list {
+      width: 100%;
+      padding: 9px 19px;
+      .container {
+        width: 100%;
+        overflow: hidden;
+        .anime {
+          height: 270px;
+          padding: 0px 5px;
+          .thumbnail {
+            position: relative;
+            cursor: pointer;
+            &:hover {
+              .ply {
+                visibility: visible;
+                opacity: 1;
+              }
+            }
+            .ply {
+              position: absolute;
+              top: 0;
+              z-index: 2;
+              height: 100%;
+              width: 100%;
+              background: rgba(0, 0, 0, 0.67);
+              display: flex;
+              visibility: hidden;
+              opacity: 0;
+              transition:
+                visibility 0s,
+                opacity 0.1s linear;
+              i {
+                color: #fff;
+                font-size: 32px;
+                margin: auto;
+              }
+            }
+            img {
+              margin: 0px auto;
+              width: 100%;
+            }
+            .type {
+              position: absolute;
+              left: 7px;
+              bottom: 10px;
+              z-index: 1;
+              padding: 5px;
+              font-size: 12px;
+              font-weight: 500;
+              color: #fff;
+              background: #29b6f6;
+              text-transform: uppercase;
+              border-radius: 2px;
+            }
+            .score {
+              position: absolute;
+              right: 7px;
+              bottom: 10px;
+              z-index: 1;
+              padding: 5px;
+              background: rgba(0, 0, 0, 0.8);
+              border-radius: 3px;
+              span,
+              i {
+                font-weight: 500;
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.9);
+              }
+              i {
+                color: #ffd600;
+              }
+            }
+          }
+
+          p {
+            margin-top: 12px;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+            text-align: left;
+          }
+          > span {
+            color: #999;
+            margin-top: 10px;
+            font-size: 12px;
+            display: block;
+            text-align: left;
+          }
+        }
+      }
+    }
+    .newAnime {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      flex-wrap: wrap;
+      overflow: hidden;
+      padding: 0px 12px;
+      .anime {
+        flex-basis: 49%;
+        width: 49%;
+        display: flex;
+        gap: 12px;
+        padding: 9px;
+        margin: 7px 0px;
+        .thumb {
+          width: 154px;
+        }
+
+        .desc {
+          flex: 1;
+          overflow: hidden;
+          a {
+            text-decoration: none;
+            h2 {
+              width: 100%;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              color: #000;
+              margin-bottom: 7px;
+              font-weight: 500;
+              line-height: normal;
+              font-size: 16px;
+            }
+            &:hover {
+              text-decoration: underline;
+              color: inherit;
+            }
+            &:visited {
+            }
+          }
+          span {
+            display: block;
+            line-height: 24px;
+            font-size: 13px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            i {
+              font-size: 14px;
+              line-height: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.Right {
+  width: 305px;
+  height: fit-content;
+  padding: 14px;
+  background: #fff;
+  border-radius: 2px;
+  h3 {
+    color: $primary;
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .list {
+      display: flex;
+      gap: 10px;
+      .lftinfo {
+        flex: 1;
+        overflow: hidden;
+        a {
+          text-decoration: none;
+          h2 {
+            color: $color-primary;
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0 0 3px;
+            line-height: 1.4em;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+          &:hover {
+            text-decoration: underline;
+            color: inherit;
+          }
+        }
+        span {
+          color: #93999e;
+          display: block;
+          overflow: hidden;
+          white-space: unset;
+          text-overflow: unset;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

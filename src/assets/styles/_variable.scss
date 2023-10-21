@@ -1,0 +1,8 @@
+$bg-primary: #00b7e0;
+$primary: #00b7e0;
+$color-primary: #222d34;
+
+@mixin container {
+  max-width: 1170px;
+  margin: auto;
+}
