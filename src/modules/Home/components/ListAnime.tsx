@@ -18,7 +18,7 @@ const ListAnime: FunctionComponent<Props> = ({ title, data, allView }) => {
       </header>
       <div className={styles.newAnime}>
         {data.map((item) => (
-          <div className={styles.anime} key={item.img}>
+          <div className={styles.anime} key={item.link}>
             <div className={styles.thumb}>
               <Link href={item.link as string}>
                 <Image src={item.img ?? ''} width={154} height={104} alt={item.title} />
