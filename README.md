@@ -10,4 +10,4 @@ an application cloned from [samehadaku.vin](https://samehadaku.vin/) using scrap
 
 ## Preview
 
-![alt text](https://github.com/darmawandoni6/samehadaku-clone/blob/main/public/Screen Shot 2023-10-22 at 21.19.35.png)
+![](https://github.com/darmawandoni6/samehadaku-clone/blob/main/public/Screen%20Shot%202023-10-22%20at%2021.19.35.png)
