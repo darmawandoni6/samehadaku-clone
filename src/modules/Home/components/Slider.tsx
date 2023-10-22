@@ -15,8 +15,9 @@ const Slider: FunctionComponent<Props> = ({ title, children }) => {
   useEffect(() => {
     if (swiper.current) {
       var main = new Swiper(swiper.current, {
-        slidesPerView: 5,
+        slidesPerView: 2,
         spaceBetween: 0,
+        loop: true,
         autoplay: {
           pauseOnMouseEnter: true,
           delay: 2500,
@@ -24,6 +25,17 @@ const Slider: FunctionComponent<Props> = ({ title, children }) => {
         navigation: {
           nextEl: '.next',
           prevEl: '.prev',
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 5,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          640: {
+            slidesPerView: 3,
+          },
         },
       });
       return () => {

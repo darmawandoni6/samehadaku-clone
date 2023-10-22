@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .Home {
+    flex-wrap: wrap;
+    .Left,
+    .Right {
+      flex-basis: 100%;
+    }
+  }
+}
