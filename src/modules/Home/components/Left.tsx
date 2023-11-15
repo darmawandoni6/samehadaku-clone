@@ -1,8 +1,5 @@
 import cx from 'classnames';
 import Image from 'next/image';
-import { useEffect, useRef } from 'react';
-import Swiper from 'swiper/bundle';
-import 'swiper/swiper-bundle.css';
 
 import Link from 'next/link';
 import { useScalping } from '../../../hooks/Scalping';
@@ -11,31 +8,10 @@ import ListAnime from './ListAnime';
 import Slider from './Slider';
 
 const Left = () => {
-  const swiper = useRef<HTMLDivElement | null>(null);
   const { data } = useScalping();
   const {
     data: { animeMovie, animePopuler, batchAnime, komikPopuler, newAnime },
   } = data.home;
-
-  useEffect(() => {
-    if (swiper.current) {
-      var main = new Swiper(swiper.current, {
-        slidesPerView: 5,
-        spaceBetween: 0,
-        autoplay: {
-          pauseOnMouseEnter: true,
-          delay: 2500,
-        },
-        navigation: {
-          nextEl: '.next',
-          prevEl: '.prev',
-        },
-      });
-      return () => {
-        main.destroy(true, true);
-      };
-    }
-  }, []);
 
   return (
     <div className={styles.Left}>

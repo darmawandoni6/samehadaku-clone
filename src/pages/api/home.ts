@@ -42,9 +42,17 @@ export type DataHome = {
   animeMovie: AnimePopuler[];
 };
 
+let expire: number;
+let dataFetch: DataHome = <DataHome>{};
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse<DataHome>) {
   try {
-    const { data } = await axios.get('https://samehadaku.vin/');
+    if (expire > new Date().getTime()) {
+      res.send(dataFetch);
+      return;
+    }
+
+    const { data } = await axios.get('https://samehadaku.mom/');
     const $ = cheerio.load(data);
 
     const result: DataHome = {
@@ -133,8 +141,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       const status = $(element).find('div.data div.type').text().trim();
       result.animeMovie.push({ link, img, type: type, score, title, status });
     });
+
+    expire = new Date().getTime() + 5 * 60 * 60 * 1000;
+    dataFetch = result;
     res.status(200).json(result);
   } catch (error) {
-    console.log(error);
+    const e = error as Error;
+    console.log(e.message);
   }
 }

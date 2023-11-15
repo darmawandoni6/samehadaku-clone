@@ -48,35 +48,6 @@ const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
       },
     }));
 
-    const expired = new Date(localStorage.getItem('expired') as string);
-    let cache = expired > new Date();
-
-    if (cache) {
-      const rekomendasiAnime = JSON.parse(localStorage.getItem('rekomendasiAnime') as string);
-      const animePopuler = JSON.parse(localStorage.getItem('animePopuler') as string);
-      const komikPopuler = JSON.parse(localStorage.getItem('komikPopuler') as string);
-      const newAnime = JSON.parse(localStorage.getItem('newAnime') as string);
-      const batchAnime = JSON.parse(localStorage.getItem('batchAnime') as string);
-      const animeMovie = JSON.parse(localStorage.getItem('animeMovie') as string);
-
-      const get: DataHome = {
-        animeMovie,
-        animePopuler,
-        batchAnime,
-        komikPopuler,
-        newAnime,
-        rekomendasiAnime,
-      };
-      setData((prev) => ({
-        ...prev,
-        home: {
-          data: get,
-          loading: false,
-        },
-      }));
-
-      return;
-    }
     try {
       const { data } = await axios.get('/api/home');
       const oneHourFromNow = new Date().getTime() + 3600 * 1000;

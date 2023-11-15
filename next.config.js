@@ -11,6 +11,12 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'samehadaku.mom',
+        port: '',
+        pathname: '/wp-content/uploads/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'i0.wp.com',
         port: '',
         pathname: '/mangakyo.org/wp-content/uploads/**',
