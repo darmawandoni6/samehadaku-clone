@@ -6,6 +6,7 @@ import { useScalping } from '../../../hooks/Scalping';
 import styles from '../styles.module.scss';
 import ListAnime from './ListAnime';
 import Slider from './Slider';
+import { images } from '@assets/images';
 
 const Left = () => {
   const { data } = useScalping();
@@ -19,7 +20,15 @@ const Left = () => {
         {animePopuler.map((item) => (
           <div className={cx(styles.anime, 'swiper-slide')} key={item.link}>
             <div className={styles.thumbnail}>
-              <Image src={item.img ?? ''} width={144} height={202} alt={item.title} />
+              <Image
+                src={item.img ?? ''}
+                width={144}
+                height={202}
+                alt={item.title}
+                onError={({ currentTarget }) => {
+                  currentTarget.src = images.defaultImage.src;
+                }}
+              />
               <Link href={item.link as string}>
                 <div className={styles.ply}>
                   <i className="fa fa-play"></i>
@@ -43,7 +52,15 @@ const Left = () => {
         {komikPopuler.map((item) => (
           <div className={cx(styles.anime, 'swiper-slide')} key={item.link}>
             <div className={styles.thumbnail}>
-              <img src={item.img} width={144} height={202} alt={item.title} />
+              <img
+                src={item.img}
+                width={144}
+                height={202}
+                alt={item.title}
+                onError={({ currentTarget }) => {
+                  currentTarget.src = images.defaultImage.src;
+                }}
+              />
               <Link href={item.link as string}>
                 <div className={styles.ply}>
                   <i className="fa fa-book"></i>
@@ -63,7 +80,15 @@ const Left = () => {
         {animeMovie.map((item) => (
           <div className={cx(styles.anime, 'swiper-slide')} key={item.link}>
             <div className={styles.thumbnail}>
-              <Image src={item.img ?? ''} width={144} height={202} alt={item.title} />
+              <Image
+                src={item.img ?? ''}
+                width={144}
+                height={202}
+                alt={item.title}
+                onError={({ currentTarget }) => {
+                  currentTarget.src = images.defaultImage.src;
+                }}
+              />
               <div className={styles.ply}>
                 <i className="fa fa-play"></i>
               </div>
