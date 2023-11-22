@@ -5,13 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'samehadaku.vin',
-        port: '',
-        pathname: '/wp-content/uploads/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'samehadaku.mom',
+        hostname: 'samehadaku.digital',
         port: '',
         pathname: '/wp-content/uploads/**',
       },

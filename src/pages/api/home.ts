@@ -52,7 +52,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       return;
     }
 
-    const { data } = await axios.get('https://samehadaku.mom/');
+    const { data } = await axios.get('https://samehadaku.digital/');
     const $ = cheerio.load(data);
 
     const result: DataHome = {
