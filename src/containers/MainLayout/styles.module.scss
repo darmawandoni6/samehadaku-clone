@@ -4,48 +4,139 @@
   height: 100vh;
   width: 100%;
   overflow: auto;
-  & > header {
-    position: sticky;
-    top: 0px;
-    z-index: 2;
-    width: 100%;
+  .centernav {
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 0 20px;
+  }
+  .th {
+    background-color: #0b0a0d;
     height: 67px;
-    background: $bg-primary;
-    display: flex;
-    align-items: center;
-    section {
-      @include container;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        a {
+    .centernav {
+      .shme {
+        display: none;
+      }
+      .mainheader {
+        float: left;
+        margin: 12px 30px 12px 0;
+        .logos {
+          margin: 0;
+          min-height: 1px;
           display: block;
-          text-align: center;
-          line-height: 67px;
-          color: #fff;
-          border-left: 0;
-          transition: color 0.5s;
-
-          padding-left: 15px;
-          padding-right: 15px;
-          text-decoration: none;
-          span {
-            font-size: 16px;
-            font-weight: bold;
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .searchx {
+        float: left;
+        width: 350px;
+        margin: 13px 25px 13px 0;
+        position: relative;
+        form {
+          padding: 0;
+          position: relative;
+          .search-live {
+            color: #fff;
+            background-color: #17151b;
+            background-image: none;
+            border: 1px solid #23202a;
+            border-radius: 3px;
+            transition:
+              border-color ease-in-out 0.15s,
+              box-shadow ease-in-out 0.15s;
+            font-weight: 300;
+            box-shadow: none !important;
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            padding-right: 30px;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 1.42857143;
+            outline: none;
+            &::placeholder {
+              color: white;
+            }
+          }
+          button {
+            position: absolute;
+            background: none;
+            color: #ddd;
+            cursor: pointer;
+            font-family: inherit;
+            border: 0;
+            padding: 0 7px;
+            top: 0px;
+            font-size: medium;
+            right: 2px;
+            line-height: 36px;
+          }
+          .srcmob {
+            display: none;
           }
         }
       }
     }
   }
+  .mm {
+    margin: 0;
+    background: #0c70de;
+    margin-bottom: 15px;
+    .centernav {
+      .bound {
+        section {
+          ul {
+            position: relative;
+            float: left;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+              float: left;
+              position: relative;
+              margin: 0 10px;
+              a {
+                display: block;
+                text-align: center;
+                line-height: 46px;
+                height: 46px;
+                padding: 0 10px;
+                color: #fff;
+                border-left: 0;
+                transition: color 0.5s;
+                position: relative;
+                font-size: 14px;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+        .surprise {
+          float: right;
+          margin-top: 9px;
+          background: rgba(0, 0, 0, 0.32);
+          color: #fff;
+          font-size: 12px;
+          margin-right: 10px;
+          border-radius: 2px;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          padding: 5px 10px;
+          line-height: 1.5;
+        }
+        .clear {
+          clear: both;
+        }
+      }
+    }
+  }
   & > main {
-    padding: 32px 0px;
-    min-height: 100%;
+    overflow: hidden;
+    max-width: 1220px;
+    margin: 0 auto;
+    position: relative;
   }
   & > footer {
     width: 100vw;

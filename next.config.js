@@ -5,15 +5,27 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'samehadaku.digital',
+        hostname: 'i2.wp.com',
         port: '',
-        pathname: '/wp-content/uploads/**',
+        pathname: '/oploverz.news/wp-content/uploads/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i1.wp.com',
+        port: '',
+        pathname: '/oploverz.news/wp-content/uploads/**',
       },
       {
         protocol: 'https',
         hostname: 'i0.wp.com',
         port: '',
-        pathname: '/mangakyo.org/wp-content/uploads/**',
+        pathname: '/oploverz.news/wp-content/uploads/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'oploverz.news',
+        port: '',
+        pathname: '/wp-content/uploads/**',
       },
     ],
   },

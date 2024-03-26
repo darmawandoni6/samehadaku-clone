@@ -1,4 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { filter, html } from '@assets/test';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 
@@ -25,6 +26,7 @@ type KomikPopuler = {
   title: string;
   status: string;
 };
+
 export type Anime = {
   img?: string;
   link?: string;
@@ -46,107 +48,67 @@ let expire: number;
 let dataFetch: DataHome = <DataHome>{};
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<DataHome>) {
+  const result: DataHome = {
+    rekomendasiAnime: [],
+    animePopuler: [],
+    komikPopuler: [],
+    newAnime: [],
+    batchAnime: [],
+    animeMovie: [],
+  };
   try {
-    if (expire > new Date().getTime()) {
-      res.send(dataFetch);
-      return;
-    }
+    // if (expire > new Date().getTime()) {
+    //   res.send(dataFetch);
+    //   return;
+    // }
 
-    const { data } = await axios.get('https://samehadaku.digital/');
+    // const { data } = await axios.get('https://oploverz.news/');
+
+    const data = filter;
     const $ = cheerio.load(data);
 
-    const result: DataHome = {
-      rekomendasiAnime: [],
-      animePopuler: [],
-      komikPopuler: [],
-      newAnime: [],
-      batchAnime: [],
-      animeMovie: [],
-    };
+    const quickfilter = $('.quickfilter');
 
-    const widgetseries = $('.widgetseries ul li');
-    widgetseries.each((i, element) => {
-      const imgseries = $(element).find('.imgseries a img').attr('src');
-      const lftinfo = $(element).find('.lftinfo');
-      lftinfo.each((_, lt) => {
-        const link = $(lt).find('a.series').attr('href');
-        const title = $(lt).find('h2').text();
-        const date = $(lt).find('span:last-child').text();
-        const genre: string[] = [];
-        $(lt)
-          .find('span a')
-          .each((_, g) => {
-            genre.push($(g).text());
-          });
+    const dd = $(quickfilter).find('.filter.dropdown');
 
-        result.rekomendasiAnime.push({ title, genre, date, file: imgseries, link });
+    const txt = {};
+
+    dd.each((i, element) => {
+      const ul = $(element).find('.dropdown-menu li');
+      console.log({ i });
+      txt[i] = [];
+
+      ul.each((_, element) => {
+        const list = $(element).find('label').text().trim();
+        // console.log(list);
+        txt[i].push(list);
       });
     });
 
-    const animePopuler = $('div.animeterpopulerdisamehadaku');
-    let animposx = $(animePopuler).find('.animposx');
-    animposx.each((i, element) => {
-      const link = $(element).find('a').attr('href');
-      const img = $(element).find('div.content-thumb img.anmsa').attr('src');
-      const type = $(element).find('div.content-thumb div.type').text().trim();
-      const score = $(element).find('div.content-thumb div.score').text().trim();
-      const title = $(element).find('div.data div.title').text().trim();
-      const status = $(element).find('div.data div.type').text().trim();
-      result.animePopuler.push({ link, img, type: type, score, title, status });
-    });
+    console.log(txt);
 
-    const komikPopuler = $('div.komikterpopuler');
-    animposx = $(komikPopuler).find('.animposx');
-    animposx.each((i, element) => {
-      const link = $(element).find('a').attr('href');
-      const img = $(element).find('div.content-thumb img').attr('src');
-      const title = $(element).find('div.data div.title').text().trim();
-      const status = $(element).find('div.data div.type').text().trim();
-      result.komikPopuler.push({ link, img, title, status });
-    });
+    // const postBody = $('.postbody');
 
-    let newAnime = $('div.post-show ul');
-    let listNew = $(newAnime).find('li');
-    listNew.each((i, item) => {
-      const img = $(item).find('.thumb img').attr('src');
-      const title = $(item).find('h2.entry-title').text().trim();
-      const episode = $(item).find('author').eq(0).text().trim();
-      const postBy = $(item).find('author').eq(1).text().trim();
-      const realese = $(item).find('span').eq(2).html();
-      const link = $(item).find('.thumb a').attr('href');
+    // const section = $(postBody).find('.bixbox.bbnofrm');
 
-      result.newAnime.push({ img, title, episode, postBy, realese: realese ? realese.trim() : undefined, link });
-    });
-    newAnime = $('div.post-show ul').eq(1);
-    listNew = $(newAnime).find('li');
-    listNew.each((i, item) => {
-      const img = $(item).find('.thumb img').attr('src');
-      const title = $(item).find('h2.entry-title').text().trim();
-      const episode = $(item).find('author').eq(0).text().trim();
-      const postBy = $(item).find('author').eq(1).text().trim();
-      const realese = $(item).find('span').eq(2).html();
-      const link = $(item).find('.thumb a').attr('href');
+    // const popularToday = $(section[0]).find('.listupd.normal .excstf article');
+    // popularToday.each((i, element) => {
+    //   // const img = $(element).find('img').attr('src');
+    //   // console.log({ img });
 
-      result.batchAnime.push({ img, title, episode, postBy, realese: realese ? realese.trim() : undefined, link });
-    });
+    //   const link = $(element).find('a').attr('href');
+    //   const img = $(element).find('img').attr('src');
+    //   const type = $(element).find('.eggtype.TV').text().trim();
+    //   const score = '0';
+    //   const title = $(element).find('.eggtitle').text().trim();
+    //   const status = '';
+    //   result.animePopuler.push({ link, img, type: type, score, title, status });
+    // });
 
-    const nontonmovieanime = $('div.nontonmovieanime');
-    animposx = $(nontonmovieanime).find('.animposx');
-    animposx.each((i, element) => {
-      const link = $(element).find('a').attr('href');
-      const img = $(element).find('div.content-thumb img.anmsa').attr('src');
-      const type = $(element).find('div.content-thumb div.type').text().trim();
-      const score = $(element).find('div.content-thumb div.score').text().trim();
-      const title = $(element).find('div.data div.title').text().trim();
-      const status = $(element).find('div.data div.type').text().trim();
-      result.animeMovie.push({ link, img, type: type, score, title, status });
-    });
-
-    expire = new Date().getTime() + 5 * 60 * 60 * 1000;
-    dataFetch = result;
     res.status(200).json(result);
   } catch (error) {
     const e = error as Error;
-    console.log(e.message);
+    res.status(200).json(result);
+    console.log({ error: e.message });
   }
 }
