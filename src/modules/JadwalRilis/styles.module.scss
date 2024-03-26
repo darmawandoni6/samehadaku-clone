@@ -1,0 +1,39 @@
+@import '../../assets/styles/variable';
+
+@include wrapper();
+@include bixbox();
+
+.releases {
+  @include releases();
+  h1 {
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.bs .bsx .limit .bt span {
+  &.epx {
+    display: block;
+    float: left;
+    margin-left: 10px;
+  }
+  &.sb {
+    display: block;
+    float: right;
+    padding: 2px 5px;
+    font-size: 12px;
+    color: #111;
+    margin-right: 5px;
+    line-height: normal;
+    border-radius: 3px;
+    background: #ffa000;
+  }
+}
