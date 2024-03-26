@@ -1,40 +1,35 @@
 import axios from 'axios';
 import type { FunctionComponent, ReactNode } from 'react';
 import { createContext, useContext, useState } from 'react';
-import type { DataHome } from '../pages/api/home';
 
-interface Result {
-  home: {
-    loading: boolean;
-    data: DataHome;
-  };
-}
-interface MyContextType {
-  data: Result;
-  getHome: () => void;
-}
 interface Props {
   children: ReactNode;
 }
 
-const defaultContext: MyContextType = {
-  getHome: () => null,
+const defaultContext: MyContext = {
+  action: {
+    getHome: () => null,
+  },
   data: {
     home: {
       loading: false,
       data: {
-        rekomendasiAnime: [],
-        animePopuler: [],
-        komikPopuler: [],
-        newAnime: [],
-        batchAnime: [],
-        animeMovie: [],
+        populer: [],
+        latest: [],
+        genre: [],
+        recommendation: {},
+        type: [],
+        list: {},
+        filter: {
+          type: [],
+          list: {},
+        },
       },
     },
   },
 };
 
-const MyContext = createContext<MyContextType>(defaultContext);
+const MyContext = createContext<MyContext>(defaultContext);
 
 const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
   const [data, setData] = useState<Result>(defaultContext.data);
@@ -49,20 +44,12 @@ const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
     }));
 
     try {
-      const { data } = await axios.get('/api/home');
-      const oneHourFromNow = new Date().getTime() + 3600 * 1000;
-      const result: DataHome = data;
-
-      localStorage.setItem('expired', new Date(oneHourFromNow).toString());
-      for (const key in result) {
-        const k = key as keyof DataHome;
-        localStorage.setItem(k, JSON.stringify(result[k]));
-      }
+      const { data } = await axios.get('/api/scrapping');
 
       setData((prev) => ({
         ...prev,
         home: {
-          data,
+          data: data.data,
           loading: false,
         },
       }));
@@ -77,7 +64,7 @@ const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
     }
   };
 
-  return <MyContext.Provider value={{ data, getHome }}>{children}</MyContext.Provider>;
+  return <MyContext.Provider value={{ data, action: { getHome } }}>{children}</MyContext.Provider>;
 };
 export default MyContextProvider;
 

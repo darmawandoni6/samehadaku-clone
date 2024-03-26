@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'i2.wp.com',
+        hostname: 'i0.wp.com',
         port: '',
         pathname: '/oploverz.news/wp-content/uploads/**',
       },
@@ -17,7 +17,13 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'i0.wp.com',
+        hostname: 'i2.wp.com',
+        port: '',
+        pathname: '/oploverz.news/wp-content/uploads/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i3.wp.com',
         port: '',
         pathname: '/oploverz.news/wp-content/uploads/**',
       },

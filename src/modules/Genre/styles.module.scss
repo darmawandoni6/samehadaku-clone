@@ -1,0 +1,43 @@
+@import '../../assets/styles/variable';
+
+@include wrapper();
+@include bixbox();
+
+.releases {
+  @include releases();
+  h1 {
+    font-size: 1.1em;
+    color: #fff;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+  }
+}
+
+.pagination {
+  overflow: hidden;
+  line-height: normal;
+  text-align: center;
+  margin: 15px 0 30px;
+  span[class='page-numbers current'] {
+    display: inline-block;
+    background: #0c70de !important;
+    padding: 8px 15px !important;
+    margin: 2px;
+    color: #fff;
+    border-radius: 3px;
+  }
+  span[class='page-numbers dots'] {
+    color: #888;
+    display: none;
+  }
+  a {
+    display: inline-block;
+    background: #333;
+    padding: 8px 15px !important;
+    margin: 2px;
+    color: #fff;
+    border-radius: 3px;
+  }
+}

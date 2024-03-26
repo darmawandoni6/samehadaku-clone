@@ -1,17 +1,16 @@
-import { images } from '@assets/images';
 import cx from 'classnames';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, type ReactNode } from 'react';
-import { useScalping } from '../../hooks/Scalping';
-import { menu } from './constants/menu';
+
 import styles from './styles.module.scss';
+import { useScalping } from '../../hooks/Scalping';
 
 const MainLayout = ({ children }: { children: ReactNode }) => {
-  const { getHome } = useScalping();
+  const { action } = useScalping();
 
   useEffect(() => {
-    getHome();
+    action.getHome();
   }, []);
 
   return (

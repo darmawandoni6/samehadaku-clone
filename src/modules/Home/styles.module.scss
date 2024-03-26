@@ -277,13 +277,98 @@
         line-height: 18px;
         font-weight: 700;
       }
+
       ul {
+        &.active {
+          display: block;
+        }
         display: none;
+        background: #333;
+        max-height: 240px;
+        overflow: auto;
+
+        width: 500px;
+        margin-top: 1px !important;
+        padding: 10px !important;
+        font-size: 13px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: auto;
+        z-index: 1000;
+        min-width: 160px;
+        text-align: left;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        list-style: none;
+        li {
+          width: 25%;
+          float: left;
+          color: #3c3c3c;
+          input {
+            position: inherit;
+            cursor: pointer;
+            display: none;
+            &:checked + label::before {
+              left: 2px;
+              top: -2px;
+              width: 5px;
+              height: 10px;
+              border: solid #28a745;
+              border-width: 0 3px 3px 0;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+              background: none;
+            }
+          }
+          label {
+            display: block;
+            color: #ccc;
+            position: inherit;
+            cursor: pointer;
+            padding: 5px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            &::before {
+              display: inline-block;
+              content: '';
+              height: 12px;
+              width: 12px;
+              border-radius: 3px;
+              margin-right: 5px;
+              background-color: #5d5d5d;
+            }
+          }
+        }
       }
     }
   }
 }
 
+.hpage {
+  clear: both;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+  a {
+    display: inline-block;
+    background: #0c70de;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 2px;
+    color: #fff;
+    width: 110px;
+    text-align: center;
+    &:hover {
+      background: #333;
+      color: #0c70de;
+    }
+  }
+}
 .clear {
   clear: both;
 }

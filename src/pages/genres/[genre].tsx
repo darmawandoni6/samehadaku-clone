@@ -2,7 +2,7 @@ import MainLayout from '@containers/MainLayout';
 import Head from 'next/head';
 import type { ReactNode } from 'react';
 import { NextPageWithLayout } from '../_app';
-import Anime from '@modules/Anime';
+import Genre from '@modules/Genre';
 
 const index: NextPageWithLayout = () => {
   return (
@@ -15,7 +15,7 @@ const index: NextPageWithLayout = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Anime />
+      <Genre />
     </>
   );
 };

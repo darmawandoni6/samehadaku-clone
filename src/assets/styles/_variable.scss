@@ -185,6 +185,25 @@ $color-primary: #222d34;
           -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
         }
+        .typez {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          font-size: 12px;
+          padding: 2px 5px;
+          line-height: normal;
+          border-radius: 3px;
+          z-index: 1;
+          color: #fff;
+          background: #333;
+          &.TV {
+            background: #0c70de;
+          }
+          &.BD,
+          &.Special {
+            background: #d3392d;
+          }
+        }
       }
       .tt {
         height: 33px;
