@@ -67,28 +67,28 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
             <section>
               <ul id="menu-oploverz" className={styles.menu}>
                 <li id="menu-item-400">
-                  <Link href="https://oploverz.news" aria-current="page">
+                  <Link href="/" aria-current="page">
                     <span>Home</span>
                   </Link>
                 </li>
                 <li id="menu-item-399">
-                  <Link href="https://oploverz.news/anime/list-mode/">
+                  <Link href="/anime/list-mode/">
                     <span>Daftar Isi</span>
                   </Link>
                 </li>
                 <li id="menu-item-8322">
-                  <Link href="https://oploverz.news/jadwal-rilis/">
+                  <Link href="/jadwal-rilis/">
                     <span>Jadwal Rilis</span>
                   </Link>
                 </li>
                 <li id="menu-item-8323">
-                  <Link href="https://oploverz.news/bookmark/">
+                  <Link href="/bookmark/">
                     <span>Bookmark</span>
                   </Link>
                 </li>
               </ul>
             </section>
-            <Link href="https://oploverz.news/random" className={styles.surprise}>
+            <Link href="/random" className={styles.surprise}>
               <i className="far fa-star" aria-hidden="true"></i> Surprise Me!
             </Link>
             <div className={styles.clear}></div>
