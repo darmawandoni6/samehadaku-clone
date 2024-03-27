@@ -44,3 +44,9 @@ export type ResBody<D = null> = {
   message: string;
   data: D;
 };
+
+export type AnimeScraping = {
+  id: string;
+  json: string;
+  type: string;
+};

@@ -44,7 +44,7 @@ const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
     }));
 
     try {
-      const { data } = await axios.get('/api/scrapping');
+      const { data } = await axios.get('/api/scrapping/home');
 
       setData((prev) => ({
         ...prev,

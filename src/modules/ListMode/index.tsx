@@ -1,8 +1,16 @@
 import Link from 'next/link';
 import styles from './styles.module.scss';
 import cx from 'classnames';
+import { useScalping } from '../../hooks/Scalping';
+import { useState } from 'react';
 
 const ListMode = () => {
+  const {
+    data: { home },
+  } = useScalping();
+
+  const [active, setActive] = useState<string>('');
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.postbody}>
@@ -16,18 +24,30 @@ const ListMode = () => {
             <div className={styles.advancedsearch}>
               <div className={styles.quickfilter}>
                 <form className={styles.filters}>
-                  <div className={cx(styles.filter, styles.dropdown)}>
-                    <button type="button" className={styles['dropdown-toggle']} data-toggle="dropdown">
-                      Genre <span id="filtercount">All</span>
-                      <i className="fa fa-angle-down" aria-hidden="true"></i>
-                    </button>
-                    <ul>
-                      <li>
-                        <input type="checkbox" id="genre-" name="genre[]" value="" />
-                        <label htmlFor="genre-"></label>
-                      </li>
-                    </ul>
-                  </div>
+                  {home.data.filter.type.map((item, i) => (
+                    <div className={cx(styles.filter, styles.dropdown)} key={i}>
+                      <button
+                        type="button"
+                        className={styles['dropdown-toggle']}
+                        data-toggle="dropdown"
+                        onClick={() => {
+                          let text = item;
+                          if (active === item) {
+                            text = '';
+                          }
+                          setActive(text);
+                        }}
+                      >
+                        {item} <i className="fa fa-angle-down" aria-hidden="true"></i>
+                      </button>
+                      <ul className={cx({ [styles.active]: active === item })}>
+                        <li>
+                          <input type="checkbox" id="genre-" name="genre[]" value="" />
+                          <label htmlFor="genre-"></label>
+                        </li>
+                      </ul>
+                    </div>
+                  ))}
                   <div className={cx(styles.filter, styles.submit)}>
                     <button type="submit" className={cx(styles.btn, styles['btn-custom-search'])}>
                       <i className="fa fa-search" aria-hidden="true"></i> Search
