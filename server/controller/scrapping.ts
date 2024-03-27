@@ -1,9 +1,9 @@
 import type { Request, Response, NextFunction } from 'express';
 import * as cheerio from 'cheerio';
-import { latest, populer, recommendation, sidebarComponent } from '../utils/scrapping';
-import type { ResBody, Populer, Scrapping, Latest, AnimeScraping } from '../type';
+import { latest, listAnime, populer, recommendation, sidebarComponent } from '../utils/scrapping';
+import type { ResBody, Populer, Scrapping, Latest, AnimeScraping, ListMode } from '../type';
 import scrapingService from '../service/scraping';
-import { typePage } from '../utils/constants';
+import { typeData, typePage } from '../utils/constants';
 import axios from 'axios';
 import createHttpError from 'http-errors';
 
@@ -133,11 +133,46 @@ const scrappingController = {
         },
       };
 
-      const create: Omit<AnimeScraping, 'id'> = {
-        json: JSON.stringify(payload),
-        type: typePage.home,
+      const createPopuler: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(payload.populer),
+        type: typeData.populer,
+        query: '',
       };
-      scrapingService.create(create as AnimeScraping);
+
+      const createLatest: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(payload.latest),
+        type: typeData.latest,
+        query: req.query.page as string,
+      };
+      const createRecommendAnime: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(payload.recommendation),
+        type: typeData.recommendAnime,
+        query: '',
+      };
+      const createRecommendGenre: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(payload.genre),
+        type: typeData.recommendGenre,
+        query: '',
+      };
+      const createFilterList: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(payload.filter.list),
+        type: typeData.filterList,
+        query: '',
+      };
+      const createfilterType: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(payload.filter.type),
+        type: typeData.filterType,
+        query: '',
+      };
+
+      await scrapingService.create([
+        createPopuler,
+        createLatest,
+        createRecommendAnime,
+        createRecommendGenre,
+        createFilterList,
+        createfilterType,
+      ] as AnimeScraping[]);
 
       const resBody: ResBody<Scrapping> = {
         message: 'success',
@@ -145,33 +180,209 @@ const scrappingController = {
       };
       res.send(resBody);
     } catch (error) {
-      const data = await scrapingService.findPage(typePage.home);
-      if (!data[0]) {
-        next(createHttpError.NotFound());
-      }
-      const resBody: ResBody<Scrapping> = {
-        message: 'success',
-        data: JSON.parse(data[0].json),
-      };
-      res.send(resBody);
+      next(error);
     }
   },
   homeCache: async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const data = await scrapingService.findPage(typePage.home);
+      const data = await scrapingService.findPage([
+        typeData.populer,
+        typeData.latest,
+        typeData.recommendAnime,
+        typeData.recommendGenre,
+        typeData.filterList,
+        typeData.filterType,
+      ]);
       if (!data[0]) {
         next();
       }
 
-      const payload = data[0] as AnimeScraping & { createdAt: Date };
+      const payload: Scrapping = {
+        populer: [],
+        latest: [],
+        genre: [],
+        filter: {
+          type: [],
+          list: {},
+        },
+        recommendation: {},
+      };
 
-      const today = new Date().setHours(0, 0, 0, 0);
-
-      if (payload.createdAt.getTime() < today) {
-        next();
+      for (const v of data) {
+        switch (v.type) {
+          case typeData.populer:
+            payload.populer = JSON.parse(v.json);
+            break;
+          case typeData.latest:
+            payload.latest = JSON.parse(v.json);
+            break;
+          case typeData.recommendAnime:
+            payload.recommendation = JSON.parse(v.json);
+            break;
+          case typeData.recommendGenre:
+            payload.genre = JSON.parse(v.json);
+            break;
+          case typeData.filterList:
+            payload.filter.list = JSON.parse(v.json);
+            break;
+          case typeData.filterType:
+            payload.filter.type = JSON.parse(v.json);
+            break;
+          default:
+            break;
+        }
       }
 
       const resBody: ResBody<Scrapping> = {
+        message: 'success',
+        data: payload,
+      };
+      res.send(resBody);
+    } catch (error) {
+      next(error);
+    }
+  },
+  latest: async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const { page } = req.query;
+      let query = '';
+
+      let url = `https://oploverz.news`;
+      if (page && (page as string) !== '1') {
+        url = `https://oploverz.news/page/${page}/`;
+        query = JSON.stringify({ page });
+      }
+
+      const { data } = await axios.get(url);
+      const $ = cheerio.load(data);
+
+      const bixbox_II = $('.bixbox.bbnofrm')[1];
+      const article = $(bixbox_II).find('article');
+
+      const vLatest: Latest[] = [];
+      article.each((i, element) => {
+        const hotbadge = $(element).find('.thumb .hotbadge').html();
+        const type = $(element).find('.typez').text().trim();
+        const img = $(element).find('img').attr('src') ?? '';
+        const episode = $(element).find('.bt .epx').text().trim();
+        const title = $(element).find('.inf a').attr('title') ?? '';
+        let anime = $(element).find('.thumb a').attr('href') ?? '';
+        if (anime) {
+          anime = anime.replace('https://oploverz.news', '');
+        }
+        let ul = $(element).find('.inf ul').html() ?? '';
+        ul = ul.replace(/https:\/\/oploverz\.news/g, '');
+        const score = $(element).find('.upscore .scr').text().trim();
+
+        vLatest.push({
+          title,
+          img,
+          type,
+          episode,
+          anime,
+          hotbadge: !!hotbadge,
+          ul,
+          score,
+        });
+      });
+
+      const resBody: ResBody<Scrapping['latest']> = {
+        message: 'success',
+        data: vLatest,
+      };
+      res.send(resBody);
+
+      const createLatest: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(vLatest),
+        type: typeData.latest,
+        query,
+      };
+      scrapingService.create([createLatest] as AnimeScraping[]);
+    } catch (error) {
+      next(error);
+    }
+  },
+  latestCache: async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const page = req.query.page as string;
+      const data = await scrapingService.findPage([typeData.latest], JSON.stringify({ page }));
+      if (!data[0]) {
+        next();
+        return;
+      }
+
+      const resBody: ResBody<Scrapping['latest']> = {
+        message: 'success',
+        data: JSON.parse(data[0].json),
+      };
+      res.send(resBody);
+    } catch (error) {
+      next(error);
+    }
+  },
+  listAnime: async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      // const { page } = req.query;
+      // let query = '';
+
+      // let url = `https://oploverz.news`;
+      // if (page && (page as string) !== '1') {
+      //   url = `https://oploverz.news/page/${page}/`;
+      //   query = JSON.stringify({ page });
+      // }
+
+      // const { data } = await axios.get(url);
+      const data = listAnime;
+      const $ = cheerio.load(data);
+
+      const soralist = $('.soralist .blix');
+
+      const list: {
+        [key: string]: ListMode[];
+      } = {};
+
+      soralist.each((i, element) => {
+        const title = $(element).find('span a').text();
+        const anime = $(element).find('ul li');
+
+        list[title] = [];
+        anime.each((i, a) => {
+          const name = $(a).find('a').text().trim() ?? '';
+          let href = $(a).find('a').attr('href') ?? '';
+          href = href.replace(/https:\/\/oploverz\.news/g, '');
+
+          list[title].push({
+            name,
+            href,
+          });
+        });
+      });
+
+      const create: Omit<AnimeScraping, 'id'> = {
+        json: JSON.stringify(list),
+        type: typeData.listMode,
+        query: '',
+      };
+      scrapingService.create([create] as AnimeScraping[]);
+
+      const resBody: ResBody<typeof list> = {
+        message: 'success',
+        data: list,
+      };
+      res.send(resBody);
+    } catch (error) {
+      next(error);
+    }
+  },
+  listAnimeCache: async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const data = await scrapingService.findPage([typeData.listMode]);
+      if (!data[0]) {
+        next();
+        return;
+      }
+
+      const resBody: ResBody<{ [key: string]: string[] }> = {
         message: 'success',
         data: JSON.parse(data[0].json),
       };

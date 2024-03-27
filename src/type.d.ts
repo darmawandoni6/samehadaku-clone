@@ -6,6 +6,11 @@ declare type Populer = {
   anime: string;
 };
 
+declare type ListMode = {
+  name: string;
+  href: string;
+};
+
 declare type Recommendation = {
   anime: string;
   isCompleted: boolean;
@@ -50,11 +55,16 @@ declare type Result = {
     loading: boolean;
     data: DataHome;
   };
+  listMode: {
+    [key: string]: ListMode[];
+  };
 };
 
 type MyContext = {
   data: Result;
   action: {
     getHome: () => void;
+    geListMode: () => void;
+    geLatest: (page: number) => void;
   };
 };

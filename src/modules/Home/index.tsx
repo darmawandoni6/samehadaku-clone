@@ -4,18 +4,48 @@ import cx from 'classnames';
 import Link from 'next/link';
 import Sidebar from './components/Sidebar';
 import { useScalping } from '../../hooks/Scalping';
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/router';
 
 const Home = () => {
   const {
     data: { home },
+    action,
   } = useScalping();
   const router = useRouter();
 
   const [active, setActive] = useState({
     genre: 0,
   });
+
+  const { next, prev } = useMemo(() => {
+    const { page } = router.query;
+
+    if (page) {
+      const pg = page as string;
+      return {
+        next: parseInt(pg, 10) + 1,
+        prev: parseInt(pg, 10) - 1,
+      };
+    }
+    return {
+      next: 2,
+      prev: 0,
+    };
+  }, [router.query]);
+
+  useEffect(() => {
+    const { page } = router.query;
+    if (page) {
+      const time = setTimeout(() => {
+        action.geLatest(parseInt(page as string, 10));
+      }, 300);
+
+      return () => {
+        clearTimeout(time);
+      };
+    }
+  }, [router.query]);
 
   return (
     <div className={styles.wrapper}>
@@ -114,10 +144,12 @@ const Home = () => {
               ))}
             </div>
             <div className={styles.hpage}>
-              <Link href={{ pathname: '/', query: { page: '1' } }} className={styles.l} style={{ marginRight: 10 }}>
-                <i className="fas fa-angle-left" aria-hidden="true"></i> Previous
-              </Link>
-              <Link href={{ pathname: '/', query: { page: '2' } }} className={styles.r}>
+              {prev > 0 && (
+                <Link href={{ pathname: '/', query: { page: prev } }} className={styles.l} style={{ marginRight: 10 }}>
+                  <i className="fas fa-angle-left" aria-hidden="true"></i> Previous
+                </Link>
+              )}
+              <Link href={{ pathname: '/', query: { page: next } }} className={styles.r}>
                 Next <i className="fas fa-angle-right" aria-hidden="true"></i>
               </Link>
             </div>

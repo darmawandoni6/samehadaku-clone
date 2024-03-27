@@ -11,6 +11,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     action.getHome();
+    action.geListMode();
   }, []);
 
   return (

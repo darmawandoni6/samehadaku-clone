@@ -29,7 +29,6 @@
       padding: 6px 5px;
       margin: 0;
       display: inline-block;
-      position: relative;
       border-radius: 2px;
       button {
         width: 100%;
@@ -63,18 +62,17 @@
           display: block;
         }
         display: none;
+        position: absolute;
         background: #333;
+        right: 0;
+        left: 0;
+        top: auto;
+        width: auto;
         max-height: 240px;
         overflow: auto;
-
-        width: 500px;
         margin-top: 1px !important;
         padding: 10px !important;
         font-size: 13px;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        left: auto;
         z-index: 1000;
         min-width: 160px;
         text-align: left;

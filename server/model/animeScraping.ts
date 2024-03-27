@@ -1,9 +1,10 @@
-import { DataTypes, Model, UUIDV4 } from 'sequelize';
+import { DataTypes, Model, Optional, UUIDV4 } from 'sequelize';
 
 import type { AnimeScraping } from '../type';
 import sequelize from '../utils/sequelize';
 
-interface instance extends Model<AnimeScraping>, AnimeScraping {
+type CreationAttributes = Optional<AnimeScraping, 'date'>;
+interface instance extends Model<AnimeScraping, CreationAttributes>, AnimeScraping {
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -24,6 +25,13 @@ const animeScrapingModel = sequelize.define<instance>(
     type: {
       allowNull: false,
       type: DataTypes.STRING,
+    },
+    query: {
+      type: DataTypes.STRING,
+    },
+    date: {
+      type: DataTypes.DATEONLY,
+      defaultValue: new Date(),
     },
   },
   { freezeTableName: true },

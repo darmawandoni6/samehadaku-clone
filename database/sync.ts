@@ -2,7 +2,7 @@ import animeScrapingModel from '../server/model/animeScraping';
 
 const syncDb = async () => {
   try {
-    await animeScrapingModel.sync();
+    await animeScrapingModel.sync({ force: true });
 
     console.log();
     console.log(`success sync database`);

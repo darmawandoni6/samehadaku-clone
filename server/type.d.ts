@@ -49,4 +49,11 @@ export type AnimeScraping = {
   id: string;
   json: string;
   type: string;
+  query: string;
+  date?: Date;
+};
+
+export type ListMode = {
+  name: string;
+  href: string;
 };

@@ -9,6 +9,8 @@ interface Props {
 const defaultContext: MyContext = {
   action: {
     getHome: () => null,
+    geListMode: () => null,
+    geLatest: (page: number) => null,
   },
   data: {
     home: {
@@ -26,6 +28,7 @@ const defaultContext: MyContext = {
         },
       },
     },
+    listMode: {},
   },
 };
 
@@ -44,7 +47,7 @@ const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
     }));
 
     try {
-      const { data } = await axios.get('/api/scrapping/home');
+      const { data } = await axios.get('/api/scrapping');
 
       setData((prev) => ({
         ...prev,
@@ -64,7 +67,41 @@ const MyContextProvider: FunctionComponent<Props> = ({ children }) => {
     }
   };
 
-  return <MyContext.Provider value={{ data, action: { getHome } }}>{children}</MyContext.Provider>;
+  const geLatest = async (page: number) => {
+    try {
+      const { data } = await axios.get('/api/scrapping/latest', {
+        params: {
+          page,
+        },
+      });
+
+      setData((prev) => ({
+        ...prev,
+        home: {
+          ...prev.home,
+          data: {
+            ...prev.home.data,
+            latest: data.data,
+          },
+        },
+      }));
+    } catch (error) {}
+  };
+
+  const geListMode = async () => {
+    try {
+      const { data } = await axios.get('/api/scrapping/list-anime');
+
+      setData((prev) => ({
+        ...prev,
+        listMode: data.data,
+      }));
+    } catch (error) {}
+  };
+
+  return (
+    <MyContext.Provider value={{ data, action: { getHome, geLatest, geListMode } }}>{children}</MyContext.Provider>
+  );
 };
 export default MyContextProvider;
 

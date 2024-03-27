@@ -1,22 +1,19 @@
-import env from 'dotenv'
-import { DataTypes } from 'sequelize'
+import { DataTypes } from 'sequelize';
 
-import sequelize from '../server/utils/sequelize'
-
-env.config()
+import sequelize from '../server/utils/sequelize';
 
 const syncDb = async () => {
-  const query = sequelize.getQueryInterface()
+  const query = sequelize.getQueryInterface();
   try {
-    console.log()
-    console.log(`success add new column: ${process.env.DATABASE}`)
-    console.log()
+    console.log();
+    console.log(`success add new column`);
+    console.log();
   } catch (error) {
-    const e = error as Error
-    console.log(error)
-    console.log(`------------------- ${e.message} -------------------`)
-    console.log()
+    const e = error as Error;
+    console.log(error);
+    console.log(`------------------- ${e.message} -------------------`);
+    console.log();
   }
-}
+};
 
-syncDb()
+syncDb();

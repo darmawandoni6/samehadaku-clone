@@ -2,14 +2,11 @@ import Link from 'next/link';
 import styles from './styles.module.scss';
 import cx from 'classnames';
 import { useScalping } from '../../hooks/Scalping';
-import { useState } from 'react';
 
 const ListMode = () => {
   const {
-    data: { home },
+    data: { listMode },
   } = useScalping();
-
-  const [active, setActive] = useState<string>('');
 
   return (
     <div className={styles.wrapper}>
@@ -21,7 +18,7 @@ const ListMode = () => {
             </h1>
           </div>
           <div className={styles.mrgn}>
-            <div className={styles.advancedsearch}>
+            {/* <div className={styles.advancedsearch}>
               <div className={styles.quickfilter}>
                 <form className={styles.filters}>
                   {home.data.filter.type.map((item, i) => (
@@ -41,10 +38,12 @@ const ListMode = () => {
                         {item} <i className="fa fa-angle-down" aria-hidden="true"></i>
                       </button>
                       <ul className={cx({ [styles.active]: active === item })}>
-                        <li>
-                          <input type="checkbox" id="genre-" name="genre[]" value="" />
-                          <label htmlFor="genre-"></label>
-                        </li>
+                        {home.data.filter.list[item].map((lt, i) => (
+                          <li key={i}>
+                            <input type="checkbox" name={item} id={lt || 'all'} />
+                            <label htmlFor={lt || 'all'}>{lt}</label>
+                          </li>
+                        ))}
                       </ul>
                     </div>
                   ))}
@@ -55,7 +54,7 @@ const ListMode = () => {
                   </div>
                 </form>
               </div>
-            </div>
+            </div> */}
             <div className={styles.nav_apb} id="tsnlistssc">
               <Link href="##">#</Link>
               <Link href="#A">A</Link>
@@ -85,53 +84,22 @@ const ListMode = () => {
             <div className={styles.clear}></div>
             <div className={styles.soralist}>
               <div className={styles.lxx}></div>
-              <div className={styles.blix}>
-                <span>
-                  <a id="#">#</a>
-                </span>
-                <ul>
-                  <li>
-                    <a
-                      className={cx(styles.series, styles.tip)}
-                      rel="301"
-                      href="https://oploverz.news/anime/3d-kanojo-real-girl-s2/"
-                      data-hasqtip="0"
-                    >
-                      3D Kanojo Real Girl S2
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className={cx(styles.series, styles.tip)}
-                      rel="5"
-                      href="https://oploverz.news/anime/3d-kanojo-real-girl/"
-                      data-hasqtip="1"
-                    >
-                      3D Kanojo: Real Girl
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className={cx(styles.series, styles.tip)}
-                      rel="21"
-                      href="https://oploverz.news/anime/86-eighty-six-part-1/"
-                      data-hasqtip="2"
-                    >
-                      86 Eighty-Six Part 1
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className={cx(styles.series, styles.tip)}
-                      rel="34"
-                      href="https://oploverz.news/anime/86-eighty-six-part-2/"
-                      data-hasqtip="3"
-                    >
-                      86 Eighty-Six Part 2
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              {Object.entries(listMode).map((item, i) => (
+                <div className={styles.blix} key={i}>
+                  <span>
+                    <a id={item[0] === '#' ? '##' : item[0]}>{item[0]}</a>
+                  </span>
+                  <ul>
+                    {item[1].map((list, l) => (
+                      <li key={l}>
+                        <Link className={cx(styles.series, styles.tip)} href={list.href}>
+                          {list.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </div>
