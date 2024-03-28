@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "next build && tsc --project tsconfig.server.json",
-    "start": "NODE_ENV=production node dist/index.js",
+    "start": "NODE_ENV=production node dist/server/index.js",
     "lint": "next lint",
     "sync": "ts-node --project tsconfig.server.json database/sync.ts",
     "add:column": "ts-node --project tsconfig.server.json database/addColumn.ts"

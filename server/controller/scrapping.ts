@@ -1,11 +1,10 @@
 import type { Request, Response, NextFunction } from 'express';
 import * as cheerio from 'cheerio';
-import { latest, listAnime, populer, recommendation, sidebarComponent } from '../utils/scrapping';
+import { listAnime } from '../utils/scrapping';
 import type { ResBody, Populer, Scrapping, Latest, AnimeScraping, ListMode } from '../type';
 import scrapingService from '../service/scraping';
-import { typeData, typePage } from '../utils/constants';
+import { typeData } from '../utils/constants';
 import axios from 'axios';
-import createHttpError from 'http-errors';
 
 const scrappingController = {
   home: async (req: Request, res: Response, next: NextFunction) => {
@@ -142,7 +141,7 @@ const scrappingController = {
       const createLatest: Omit<AnimeScraping, 'id'> = {
         json: JSON.stringify(payload.latest),
         type: typeData.latest,
-        query: req.query.page as string,
+        query: '',
       };
       const createRecommendAnime: Omit<AnimeScraping, 'id'> = {
         json: JSON.stringify(payload.recommendation),
@@ -195,6 +194,7 @@ const scrappingController = {
       ]);
       if (!data[0]) {
         next();
+        return;
       }
 
       const payload: Scrapping = {
