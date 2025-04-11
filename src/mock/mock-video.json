@@ -1,0 +1,65 @@
+{
+  "data": {
+    "promo": [
+      {
+        "title": "PV 2",
+        "trailer": {
+          "youtube_id": "nz-VCl7yUAw",
+          "url": "https://www.youtube.com/watch?v=nz-VCl7yUAw",
+          "embed_url": "https://www.youtube.com/embed/nz-VCl7yUAw?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "PV 1",
+        "trailer": {
+          "youtube_id": "9kQ_oabp3tM",
+          "url": "https://www.youtube.com/watch?v=9kQ_oabp3tM",
+          "embed_url": "https://www.youtube.com/embed/9kQ_oabp3tM?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/9kQ_oabp3tM/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/9kQ_oabp3tM/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/9kQ_oabp3tM/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/9kQ_oabp3tM/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/9kQ_oabp3tM/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "PV (Teaser 1)",
+        "trailer": {
+          "youtube_id": "9ndII5bdaR0",
+          "url": "https://www.youtube.com/watch?v=9ndII5bdaR0",
+          "embed_url": "https://www.youtube.com/embed/9ndII5bdaR0?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/9ndII5bdaR0/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/9ndII5bdaR0/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/9ndII5bdaR0/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/9ndII5bdaR0/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/9ndII5bdaR0/maxresdefault.jpg"
+          }
+        }
+      }
+    ],
+    "episodes": [
+      {
+        "mal_id": 1,
+        "title": "Indomitable Resolve",
+        "episode": "Episode 1",
+        "url": "https://myanimelist.net/anime/51818/Enen_no_Shouboutai__San_no_Shou/episode/1",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/51f4f0e6b0122b8497ddd1044a27c6c41743764516_large.jpg"
+          }
+        }
+      }
+    ],
+    "music_videos": []
+  }
+}

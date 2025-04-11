@@ -1,0 +1,68 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
+import { useOnValue } from '@/hooks/useOnValue';
+
+import Header from '../../components/header';
+import { Tabs } from '../../components/tabs';
+import Footer from './_components/footer';
+import GenreSection from './_components/genre-section';
+import HeroSection from './_components/hero-section';
+import TabAnime from './_components/tab-anime';
+import TabsHeader from './_components/tabs-header';
+import { AnimeType } from './types';
+
+const Main = () => {
+  const [tab, setTab] = useState<AnimeType>(AnimeType.list);
+
+  const func = useOnValue();
+
+  useEffect(() => {
+    const controller = new AbortController();
+    const signal = controller.signal;
+    fetch(signal);
+    return () => {
+      controller.abort();
+    };
+  }, []);
+
+  async function fetch(signal: AbortSignal) {
+    await Promise.allSettled([func.onAnime('', signal), func.onAnime(AnimeType.list, signal), func.onReview(signal)]);
+  }
+
+  const handleTab = (() => {
+    let controller: AbortController | null = null;
+
+    return (val: string) => {
+      // Abort previous request
+      if (controller) controller.abort();
+
+      // Create a new controller
+      controller = new AbortController();
+      const signal = controller.signal;
+
+      func.onAnime(val, signal); // assuming func.onAnime can handle signal
+      setTab(val as AnimeType);
+    };
+  })();
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      <HeroSection />
+      <main className="container mx-auto px-4 py-8">
+        {/* <TrendingSection /> */}
+        <section className="mb-12">
+          <Tabs defaultValue={AnimeType.list} className="w-full" onValueChange={handleTab}>
+            <TabsHeader />
+            <TabAnime type={tab} />
+          </Tabs>
+        </section>
+        <GenreSection />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Main;

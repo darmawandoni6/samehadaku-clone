@@ -1,0 +1,1726 @@
+{
+  "data": [
+    {
+      "mal_id": 57754,
+      "url": "https://myanimelist.net/anime/57754/BanG_Dream_Its_MyGO_Movie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1055/145734.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1055/145734t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1055/145734l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1055/145734.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1055/145734t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1055/145734l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "uJ1P_0cLmOs",
+        "url": "https://www.youtube.com/watch?v=uJ1P_0cLmOs",
+        "embed_url": "https://www.youtube.com/embed/uJ1P_0cLmOs?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/uJ1P_0cLmOs/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/uJ1P_0cLmOs/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/uJ1P_0cLmOs/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/uJ1P_0cLmOs/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/uJ1P_0cLmOs/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "BanG Dream! It's MyGO!!!!! Movie"
+        },
+        {
+          "type": "Synonym",
+          "title": "Haru no Hidamari"
+        },
+        {
+          "type": "Synonym",
+          "title": "Mayoi Neko"
+        },
+        {
+          "type": "Synonym",
+          "title": "Utau"
+        },
+        {
+          "type": "Synonym",
+          "title": "Bokura ni Nareru Uta & FILM LIVE"
+        },
+        {
+          "type": "Japanese",
+          "title": "劇場版 バンドリ！It's MyGO!!!!!"
+        }
+      ],
+      "title": "BanG Dream! It's MyGO!!!!! Movie",
+      "title_english": null,
+      "title_japanese": "劇場版 バンドリ！It's MyGO!!!!!",
+      "title_synonyms": ["Haru no Hidamari", "Mayoi Neko", "Utau", "Bokura ni Nareru Uta & FILM LIVE"],
+      "type": "Movie",
+      "source": "Mixed media",
+      "episodes": 2,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-09-27T00:00:00+00:00",
+        "to": "2024-11-08T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 27,
+            "month": 9,
+            "year": 2024
+          },
+          "to": {
+            "day": 8,
+            "month": 11,
+            "year": 2024
+          }
+        },
+        "string": "Sep 27, 2024 to Nov 8, 2024"
+      },
+      "duration": "1 hr 58 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 6.91,
+      "scored_by": 116,
+      "rank": 4824,
+      "popularity": 11324,
+      "members": 2444,
+      "favorites": 7,
+      "synopsis": "Theatrical compilation of BanG Dream! It's MyGO!!!!!.",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 539,
+          "type": "anime",
+          "name": "Ultra Super Pictures",
+          "url": "https://myanimelist.net/anime/producer/539/Ultra_Super_Pictures"
+        },
+        {
+          "mal_id": 775,
+          "type": "anime",
+          "name": "Bushiroad",
+          "url": "https://myanimelist.net/anime/producer/775/Bushiroad"
+        },
+        {
+          "mal_id": 1211,
+          "type": "anime",
+          "name": "Tokyo MX",
+          "url": "https://myanimelist.net/anime/producer/1211/Tokyo_MX"
+        },
+        {
+          "mal_id": 1261,
+          "type": "anime",
+          "name": "Good Smile Company",
+          "url": "https://myanimelist.net/anime/producer/1261/Good_Smile_Company"
+        },
+        {
+          "mal_id": 1634,
+          "type": "anime",
+          "name": "Bushiroad Music",
+          "url": "https://myanimelist.net/anime/producer/1634/Bushiroad_Music"
+        },
+        {
+          "mal_id": 2015,
+          "type": "anime",
+          "name": "HoriPro International",
+          "url": "https://myanimelist.net/anime/producer/2015/HoriPro_International"
+        },
+        {
+          "mal_id": 2763,
+          "type": "anime",
+          "name": "Ace Crew Entertainment",
+          "url": "https://myanimelist.net/anime/producer/2763/Ace_Crew_Entertainment"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 537,
+          "type": "anime",
+          "name": "SANZIGEN",
+          "url": "https://myanimelist.net/anime/producer/537/SANZIGEN"
+        }
+      ],
+      "genres": [],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 19,
+          "type": "anime",
+          "name": "Music",
+          "url": "https://myanimelist.net/anime/genre/19/Music"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 59718,
+      "url": "https://myanimelist.net/anime/59718/Kidou_Senshi_Gundam__The_Origin_-_Movie_Edition",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1647/145265.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1647/145265t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1647/145265l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1647/145265.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1647/145265t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1647/145265l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kidou Senshi Gundam: The Origin - Movie Edition"
+        },
+        {
+          "type": "Synonym",
+          "title": "Mobile Suit Gundam: The Origin - Movie Edition"
+        },
+        {
+          "type": "Japanese",
+          "title": "機動戦士ガンダム THE ORIGIN (movie edition)"
+        }
+      ],
+      "title": "Kidou Senshi Gundam: The Origin - Movie Edition",
+      "title_english": null,
+      "title_japanese": "機動戦士ガンダム THE ORIGIN (movie edition)",
+      "title_synonyms": ["Mobile Suit Gundam: The Origin - Movie Edition"],
+      "type": "Movie",
+      "source": "Manga",
+      "episodes": 3,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-09-13T00:00:00+00:00",
+        "to": "2024-10-11T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 13,
+            "month": 9,
+            "year": 2024
+          },
+          "to": {
+            "day": 11,
+            "month": 10,
+            "year": 2024
+          }
+        },
+        "string": "Sep 13, 2024 to Oct 11, 2024"
+      },
+      "duration": "2 hr 5 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 6.94,
+      "scored_by": 117,
+      "rank": 4651,
+      "popularity": 12897,
+      "members": 1497,
+      "favorites": 3,
+      "synopsis": "In the year 0068 of the Universal Century, Casval Rem Deikun's life is thrown into chaotic disarray after the assassination of his father, a prolific figure in the crusade towards civil rights for people who live away from the Earth's surface. Casval and his sister Artesia receive aid from soldiers who were loyal to their father, and the siblings are whisked away from their home, separated, and thrown into a twisted fate that sees them come into their own as soldiers and adults.\n\nYears before stealing the name Char Aznable or his \"Red Comet\" moniker, Casval must contend with the rise of a militarized version of his father's ideology and his own vengeful nature as intergalactic war molds him into a legendary mobile suit pilot. \n\n[Written by MAL Rewrite]",
+      "background": "Compilation films re-editing the original Kidou Senshi Gundam: The Origin OVA series into a movie trilogy format with no new added scenes or footage.",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 14,
+          "type": "anime",
+          "name": "Sunrise",
+          "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 18,
+          "type": "anime",
+          "name": "Mecha",
+          "url": "https://myanimelist.net/anime/genre/18/Mecha"
+        },
+        {
+          "mal_id": 38,
+          "type": "anime",
+          "name": "Military",
+          "url": "https://myanimelist.net/anime/genre/38/Military"
+        },
+        {
+          "mal_id": 29,
+          "type": "anime",
+          "name": "Space",
+          "url": "https://myanimelist.net/anime/genre/29/Space"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 55357,
+      "url": "https://myanimelist.net/anime/55357/Bocchi_the_Rock_Movie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1256/142261.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1256/142261t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1256/142261l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1256/142261.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1256/142261t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1256/142261l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "duo1scb3dL0",
+        "url": "https://www.youtube.com/watch?v=duo1scb3dL0",
+        "embed_url": "https://www.youtube.com/embed/duo1scb3dL0?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/duo1scb3dL0/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/duo1scb3dL0/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/duo1scb3dL0/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/duo1scb3dL0/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/duo1scb3dL0/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Bocchi the Rock! Movie"
+        },
+        {
+          "type": "Synonym",
+          "title": "Bocchi the Rock! Re:"
+        },
+        {
+          "type": "Synonym",
+          "title": "Bocchi the Rock! Re:Re:"
+        },
+        {
+          "type": "Japanese",
+          "title": "ぼっち・ざ・ろっく！劇場総集編"
+        }
+      ],
+      "title": "Bocchi the Rock! Movie",
+      "title_english": null,
+      "title_japanese": "ぼっち・ざ・ろっく！劇場総集編",
+      "title_synonyms": ["Bocchi the Rock! Re:", "Bocchi the Rock! Re:Re:"],
+      "type": "Movie",
+      "source": "4-koma manga",
+      "episodes": 2,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-06-07T00:00:00+00:00",
+        "to": "2024-08-09T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 7,
+            "month": 6,
+            "year": 2024
+          },
+          "to": {
+            "day": 9,
+            "month": 8,
+            "year": 2024
+          }
+        },
+        "string": "Jun 7, 2024 to Aug 9, 2024"
+      },
+      "duration": "1 hr 22 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.31,
+      "scored_by": 4224,
+      "rank": 270,
+      "popularity": 2938,
+      "members": 63932,
+      "favorites": 438,
+      "synopsis": "Theatrical compilation of Bocchi the Rock!",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 797,
+          "type": "anime",
+          "name": "Houbunsha",
+          "url": "https://myanimelist.net/anime/producer/797/Houbunsha"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1835,
+          "type": "anime",
+          "name": "CloverWorks",
+          "url": "https://myanimelist.net/anime/producer/1835/CloverWorks"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 52,
+          "type": "anime",
+          "name": "CGDCT",
+          "url": "https://myanimelist.net/anime/genre/52/CGDCT"
+        },
+        {
+          "mal_id": 19,
+          "type": "anime",
+          "name": "Music",
+          "url": "https://myanimelist.net/anime/genre/19/Music"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 51358,
+      "url": "https://myanimelist.net/anime/51358/Dead_Dead_Demons_Dededede_Destruction",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1848/140442.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1848/140442t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1848/140442l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1848/140442.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1848/140442t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1848/140442l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "k-4juCslsmc",
+        "url": "https://www.youtube.com/watch?v=k-4juCslsmc",
+        "embed_url": "https://www.youtube.com/embed/k-4juCslsmc?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/k-4juCslsmc/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/k-4juCslsmc/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/k-4juCslsmc/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/k-4juCslsmc/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/k-4juCslsmc/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Dead Dead Demons Dededede Destruction"
+        },
+        {
+          "type": "Synonym",
+          "title": "DeDeDeDe"
+        },
+        {
+          "type": "Synonym",
+          "title": "DDDD"
+        },
+        {
+          "type": "Japanese",
+          "title": "デッドデッドデーモンズデデデデデストラクション"
+        },
+        {
+          "type": "English",
+          "title": "Dead Dead Demons Dededede Destruction"
+        }
+      ],
+      "title": "Dead Dead Demons Dededede Destruction",
+      "title_english": "Dead Dead Demons Dededede Destruction",
+      "title_japanese": "デッドデッドデーモンズデデデデデストラクション",
+      "title_synonyms": ["DeDeDeDe", "DDDD"],
+      "type": "Movie",
+      "source": "Manga",
+      "episodes": 2,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-03-22T00:00:00+00:00",
+        "to": "2024-05-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 22,
+            "month": 3,
+            "year": 2024
+          },
+          "to": {
+            "day": 24,
+            "month": 5,
+            "year": 2024
+          }
+        },
+        "string": "Mar 22, 2024 to May 24, 2024"
+      },
+      "duration": "2 hr per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.51,
+      "scored_by": 2048,
+      "rank": 1958,
+      "popularity": 4210,
+      "members": 32215,
+      "favorites": 96,
+      "synopsis": "When you look up at the sky, what do you see? A blue sky? Freedom? A hopeful future? The people of Tokyo see none of these. Instead, an ominous alien mothership looms overhead, engulfing the city skyscape.\n\nThree years ago, they came. The arrival of the \"Invaders\" sparked the greatest war humanity had ever faced—one that threatened to end the world. The Japanese government scrambled to fight the Invaders. Weapons were mass-produced, sparking controversy and pacifist movements.\n\nThat day, everything changed. And yet, nothing has changed. Kadode Koyama and Ouran Nakagawa live their final days like they always have: going to school, playing with friends, and doing what any carefree high school girl would do.\n\nAs they grow up, they come to learn what it truly means to be an adult, in a world where adults seem to be demons who only deceive and destroy. They come to learn the real threat to humanity is not the Invaders, but humanity itself.\n\n[Written by MAL Rewrite]",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 470,
+          "type": "anime",
+          "name": "GAGA",
+          "url": "https://myanimelist.net/anime/producer/470/GAGA"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2157,
+          "type": "anime",
+          "name": "Production +h.",
+          "url": "https://myanimelist.net/anime/producer/2157/Production__h"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 23,
+          "type": "anime",
+          "name": "School",
+          "url": "https://myanimelist.net/anime/genre/23/School"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60076,
+      "url": "https://myanimelist.net/anime/60076/Blue_Lock__Episode_Nagi_-_Additional_Time",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1006/146003.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1006/146003t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1006/146003l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1006/146003.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1006/146003t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1006/146003l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Blue Lock: Episode Nagi - Additional Time!"
+        },
+        {
+          "type": "Japanese",
+          "title": "ブルーロック -EPISODE 凪- あでぃしょなる・たいむ！"
+        }
+      ],
+      "title": "Blue Lock: Episode Nagi - Additional Time!",
+      "title_english": null,
+      "title_japanese": "ブルーロック -EPISODE 凪- あでぃしょなる・たいむ！",
+      "title_synonyms": [],
+      "type": "Movie",
+      "source": "Manga",
+      "episodes": 4,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-04-19T00:00:00+00:00",
+        "to": "2024-05-10T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 19,
+            "month": 4,
+            "year": 2024
+          },
+          "to": {
+            "day": 10,
+            "month": 5,
+            "year": 2024
+          }
+        },
+        "string": "Apr 19, 2024 to May 10, 2024"
+      },
+      "duration": "1 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 6.76,
+      "scored_by": 1649,
+      "rank": 5597,
+      "popularity": 9830,
+      "members": 3846,
+      "favorites": 9,
+      "synopsis": "A series of shorts which aired along with the release of Blue Lock: Episode Nagi. A different short was shown each week during the film's theatrical run and they were all included with the BD release.",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 441,
+          "type": "anime",
+          "name": "8bit",
+          "url": "https://myanimelist.net/anime/producer/441/8bit"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 51716,
+      "url": "https://myanimelist.net/anime/51716/Bishoujo_Senshi_Sailor_Moon_Cosmos_Movie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1388/133092.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1388/133092t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1388/133092l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1388/133092.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1388/133092t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1388/133092l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "LhmHTock6R0",
+        "url": "https://www.youtube.com/watch?v=LhmHTock6R0",
+        "embed_url": "https://www.youtube.com/embed/LhmHTock6R0?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/LhmHTock6R0/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/LhmHTock6R0/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/LhmHTock6R0/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/LhmHTock6R0/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/LhmHTock6R0/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Bishoujo Senshi Sailor Moon Cosmos Movie"
+        },
+        {
+          "type": "Japanese",
+          "title": "劇場版 美少女戦士セーラームーンCosmos"
+        },
+        {
+          "type": "English",
+          "title": "Pretty Guardian Sailor Moon Cosmos the Movie"
+        }
+      ],
+      "title": "Bishoujo Senshi Sailor Moon Cosmos Movie",
+      "title_english": "Pretty Guardian Sailor Moon Cosmos the Movie",
+      "title_japanese": "劇場版 美少女戦士セーラームーンCosmos",
+      "title_synonyms": [],
+      "type": "Movie",
+      "source": "Manga",
+      "episodes": 2,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2023-06-09T00:00:00+00:00",
+        "to": "2023-06-30T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 9,
+            "month": 6,
+            "year": 2023
+          },
+          "to": {
+            "day": 30,
+            "month": 6,
+            "year": 2023
+          }
+        },
+        "string": "Jun 9, 2023 to Jun 30, 2023"
+      },
+      "duration": "1 hr 20 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.81,
+      "scored_by": 8476,
+      "rank": 1025,
+      "popularity": 5328,
+      "members": 18654,
+      "favorites": 117,
+      "synopsis": "The final battle for the Sailor Guardians begins as they face Sailor Iron Mouse, Sailor Aluminum Siren, Sailor Lead Crow, Sailor Tin Nyanko and more.\n\n(Source: Netflix)",
+      "background": "The movie adapts part of the the Shadow Galactica arc from the original manga.",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 18,
+          "type": "anime",
+          "name": "Toei Animation",
+          "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Studio Deen",
+          "url": "https://myanimelist.net/anime/producer/37/Studio_Deen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 66,
+          "type": "anime",
+          "name": "Mahou Shoujo",
+          "url": "https://myanimelist.net/anime/genre/66/Mahou_Shoujo"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 25,
+          "type": "anime",
+          "name": "Shoujo",
+          "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+        }
+      ]
+    },
+    {
+      "mal_id": 39905,
+      "url": "https://myanimelist.net/anime/39905/Collar_x_Malice_Movie__Deep_Cover",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1535/133157.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1535/133157t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1535/133157l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1535/133157.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1535/133157t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1535/133157l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "23LKtHrokvo",
+        "url": "https://www.youtube.com/watch?v=23LKtHrokvo",
+        "embed_url": "https://www.youtube.com/embed/23LKtHrokvo?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/23LKtHrokvo/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/23LKtHrokvo/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/23LKtHrokvo/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/23LKtHrokvo/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/23LKtHrokvo/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Collar x Malice Movie: Deep Cover"
+        },
+        {
+          "type": "Japanese",
+          "title": "劇場版 Collar×Malice -deep cover-"
+        }
+      ],
+      "title": "Collar x Malice Movie: Deep Cover",
+      "title_english": null,
+      "title_japanese": "劇場版 Collar×Malice -deep cover-",
+      "title_synonyms": [],
+      "type": "Movie",
+      "source": "Visual novel",
+      "episodes": 2,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2023-05-26T00:00:00+00:00",
+        "to": "2023-06-23T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 26,
+            "month": 5,
+            "year": 2023
+          },
+          "to": {
+            "day": 23,
+            "month": 6,
+            "year": 2023
+          }
+        },
+        "string": "May 26, 2023 to Jun 23, 2023"
+      },
+      "duration": "51 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 5.85,
+      "scored_by": 267,
+      "rank": 10750,
+      "popularity": 6503,
+      "members": 11164,
+      "favorites": 46,
+      "synopsis": "A dangerous shadow organization launches a campaign of fear and violence in the city of Shinjuku, pushing society to the brink of chaos. As a young police officer tasked with restoring order, Ichika Hoshino becomes the target of an attack, and has a poisonous collar attached to her neck. With the situation spiraling out of control and time running out, five mysterious strangers appear to aid her in her quest for the truth. Who can she trust? Will she be able to save herself and the soul of Shinjuku from the clutches of oblivion?\n\n(Source: Aksys Games)",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 719,
+          "type": "anime",
+          "name": "Studio Mausu",
+          "url": "https://myanimelist.net/anime/producer/719/Studio_Mausu"
+        },
+        {
+          "mal_id": 1284,
+          "type": "anime",
+          "name": "Avex Pictures",
+          "url": "https://myanimelist.net/anime/producer/1284/Avex_Pictures"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Studio Deen",
+          "url": "https://myanimelist.net/anime/producer/37/Studio_Deen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        },
+        {
+          "mal_id": 41,
+          "type": "anime",
+          "name": "Suspense",
+          "url": "https://myanimelist.net/anime/genre/41/Suspense"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 39,
+          "type": "anime",
+          "name": "Detective",
+          "url": "https://myanimelist.net/anime/genre/39/Detective"
+        },
+        {
+          "mal_id": 73,
+          "type": "anime",
+          "name": "Reverse Harem",
+          "url": "https://myanimelist.net/anime/genre/73/Reverse_Harem"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 43,
+          "type": "anime",
+          "name": "Josei",
+          "url": "https://myanimelist.net/anime/genre/43/Josei"
+        }
+      ]
+    },
+    {
+      "mal_id": 51805,
+      "url": "https://myanimelist.net/anime/51805/Ginga_Eiyuu_Densetsu__Die_Neue_These_-_Sakubou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1700/123762.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1700/123762t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1700/123762l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1700/123762.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1700/123762t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1700/123762l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "AfDKYKRGG54",
+        "url": "https://www.youtube.com/watch?v=AfDKYKRGG54",
+        "embed_url": "https://www.youtube.com/embed/AfDKYKRGG54?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/AfDKYKRGG54/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/AfDKYKRGG54/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/AfDKYKRGG54/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/AfDKYKRGG54/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/AfDKYKRGG54/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ginga Eiyuu Densetsu: Die Neue These - Sakubou"
+        },
+        {
+          "type": "Synonym",
+          "title": "Legend of the Galactic Heroes: Die Neue These"
+        },
+        {
+          "type": "Synonym",
+          "title": "Ginga Eiyuu Densetsu: Die Neue These Fourth Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Ginga Eiyuu Densetsu: Die Neue These 4th Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "銀河英雄伝説 Die Neue These 策謀"
+        },
+        {
+          "type": "English",
+          "title": "Legend of the Galactic Heroes: Die Neue These - Intrigue"
+        }
+      ],
+      "title": "Ginga Eiyuu Densetsu: Die Neue These - Sakubou",
+      "title_english": "Legend of the Galactic Heroes: Die Neue These - Intrigue",
+      "title_japanese": "銀河英雄伝説 Die Neue These 策謀",
+      "title_synonyms": [
+        "Legend of the Galactic Heroes: Die Neue These",
+        "Ginga Eiyuu Densetsu: Die Neue These Fourth Season",
+        "Ginga Eiyuu Densetsu: Die Neue These 4th Season"
+      ],
+      "type": "Movie",
+      "source": "Novel",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2022-09-30T00:00:00+00:00",
+        "to": "2022-11-25T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 30,
+            "month": 9,
+            "year": 2022
+          },
+          "to": {
+            "day": 25,
+            "month": 11,
+            "year": 2022
+          }
+        },
+        "string": "Sep 30, 2022 to Nov 25, 2022"
+      },
+      "duration": "25 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.32,
+      "scored_by": 6568,
+      "rank": 270,
+      "popularity": 5536,
+      "members": 16809,
+      "favorites": 64,
+      "synopsis": "After Yang Wen-li successfully captures the Iserlohn Fortress, the Free Planets Alliance grows bolder in its militaristic ambitions. With recent incursions into Galactic Empire territory and the possession of a perfect beachhead, the Alliance is now able to deal significant damage to the Empire. However, Reinhard von Lohengramm has no intention of allowing the Free Planets Alliance to gain a foothold. He is adamant about carrying on his best friend Siegfried Kircheis' dearest wish: to be the one to unite the universe. \n\nAs wide-scale military clashes continue, the opportunist Adrian Rubinsky, Fezzan's ambitious leader, attempts to take advantage of the war to further his personal goals.\n\n[Written by MAL Rewrite]",
+      "background": "Ginga Eiyuu Densetsu: Die Neue These - Sakubou was first released in theaters in three chapters of four standard episodes each for a limited three-week screening of each part.",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 109,
+          "type": "anime",
+          "name": "Shochiku",
+          "url": "https://myanimelist.net/anime/producer/109/Shochiku"
+        },
+        {
+          "mal_id": 2434,
+          "type": "anime",
+          "name": "Wright Staff",
+          "url": "https://myanimelist.net/anime/producer/2434/Wright_Staff"
+        },
+        {
+          "mal_id": 2435,
+          "type": "anime",
+          "name": "Aiming",
+          "url": "https://myanimelist.net/anime/producer/2435/Aiming"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Production I.G",
+          "url": "https://myanimelist.net/anime/producer/10/Production_IG"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        },
+        {
+          "mal_id": 38,
+          "type": "anime",
+          "name": "Military",
+          "url": "https://myanimelist.net/anime/genre/38/Military"
+        },
+        {
+          "mal_id": 29,
+          "type": "anime",
+          "name": "Space",
+          "url": "https://myanimelist.net/anime/genre/29/Space"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 47777,
+      "url": "https://myanimelist.net/anime/47777/Toku__Touken_Ranbu_-_Hanamaru_-_Setsugetsuka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1233/121779.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1233/121779t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1233/121779l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1233/121779.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1233/121779t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1233/121779l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "0bXM6RHP3Ww",
+        "url": "https://www.youtube.com/watch?v=0bXM6RHP3Ww",
+        "embed_url": "https://www.youtube.com/embed/0bXM6RHP3Ww?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/0bXM6RHP3Ww/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/0bXM6RHP3Ww/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/0bXM6RHP3Ww/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/0bXM6RHP3Ww/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/0bXM6RHP3Ww/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Toku: Touken Ranbu - Hanamaru - Setsugetsuka"
+        },
+        {
+          "type": "Japanese",
+          "title": "特『刀剣乱舞-花丸-』～雪月華～"
+        }
+      ],
+      "title": "Toku: Touken Ranbu - Hanamaru - Setsugetsuka",
+      "title_english": null,
+      "title_japanese": "特『刀剣乱舞-花丸-』～雪月華～",
+      "title_synonyms": [],
+      "type": "Movie",
+      "source": "Game",
+      "episodes": 3,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2022-05-20T00:00:00+00:00",
+        "to": "2022-09-01T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 20,
+            "month": 5,
+            "year": 2022
+          },
+          "to": {
+            "day": 1,
+            "month": 9,
+            "year": 2022
+          }
+        },
+        "string": "May 20, 2022 to Sep 1, 2022"
+      },
+      "duration": "1 hr 12 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 6.94,
+      "scored_by": 408,
+      "rank": 4673,
+      "popularity": 8837,
+      "members": 5260,
+      "favorites": 32,
+      "synopsis": "Touken Ranbu: Hanamaru anime movie trilogy.",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 95,
+          "type": "anime",
+          "name": "Doga Kobo",
+          "url": "https://myanimelist.net/anime/producer/95/Doga_Kobo"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 13,
+          "type": "anime",
+          "name": "Historical",
+          "url": "https://myanimelist.net/anime/genre/13/Historical"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 48624,
+      "url": "https://myanimelist.net/anime/48624/Re_cycle_of_the_Penguindrum",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1199/120216.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1199/120216t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1199/120216l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1199/120216.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1199/120216t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1199/120216l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "KkwKT1AGyrQ",
+        "url": "https://www.youtube.com/watch?v=KkwKT1AGyrQ",
+        "embed_url": "https://www.youtube.com/embed/KkwKT1AGyrQ?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/KkwKT1AGyrQ/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/KkwKT1AGyrQ/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/KkwKT1AGyrQ/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/KkwKT1AGyrQ/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/KkwKT1AGyrQ/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Re:cycle of the Penguindrum"
+        },
+        {
+          "type": "Synonym",
+          "title": "Mawaru Penguindrum Movie"
+        },
+        {
+          "type": "Japanese",
+          "title": "Re:cycle of the PENGUINDRUM"
+        }
+      ],
+      "title": "Re:cycle of the Penguindrum",
+      "title_english": null,
+      "title_japanese": "Re:cycle of the PENGUINDRUM",
+      "title_synonyms": ["Mawaru Penguindrum Movie"],
+      "type": "Movie",
+      "source": "Original",
+      "episodes": 2,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2022-04-29T00:00:00+00:00",
+        "to": "2022-07-22T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 29,
+            "month": 4,
+            "year": 2022
+          },
+          "to": {
+            "day": 22,
+            "month": 7,
+            "year": 2022
+          }
+        },
+        "string": "Apr 29, 2022 to Jul 22, 2022"
+      },
+      "duration": "2 hr 16 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 7.2,
+      "scored_by": 1359,
+      "rank": 3406,
+      "popularity": 5874,
+      "members": 14399,
+      "favorites": 35,
+      "synopsis": "Compilation of Mawaru Penguindrum, including new scenes.",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 1344,
+          "type": "anime",
+          "name": "King Records",
+          "url": "https://myanimelist.net/anime/producer/1344/King_Records"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 376,
+          "type": "anime",
+          "name": "Sentai Filmworks",
+          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 112,
+          "type": "anime",
+          "name": "Brain's Base",
+          "url": "https://myanimelist.net/anime/producer/112/Brains_Base"
+        },
+        {
+          "mal_id": 1828,
+          "type": "anime",
+          "name": "Lapin Track",
+          "url": "https://myanimelist.net/anime/producer/1828/Lapin_Track"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 5,
+          "type": "anime",
+          "name": "Avant Garde",
+          "url": "https://myanimelist.net/anime/genre/5/Avant_Garde"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 40,
+          "type": "anime",
+          "name": "Psychological",
+          "url": "https://myanimelist.net/anime/genre/40/Psychological"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 42886,
+      "url": "https://myanimelist.net/anime/42886/Ginga_Eiyuu_Densetsu__Die_Neue_These_-_Gekitotsu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1859/118711.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1859/118711t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1859/118711l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1859/118711.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1859/118711t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1859/118711l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "73ZRLL3dP7A",
+        "url": "https://www.youtube.com/watch?v=73ZRLL3dP7A",
+        "embed_url": "https://www.youtube.com/embed/73ZRLL3dP7A?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/73ZRLL3dP7A/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/73ZRLL3dP7A/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/73ZRLL3dP7A/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/73ZRLL3dP7A/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/73ZRLL3dP7A/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu"
+        },
+        {
+          "type": "Synonym",
+          "title": "The Legend of the Galactic Heroes: The New Thesis 3rd Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "LotGH"
+        },
+        {
+          "type": "Synonym",
+          "title": "Legend of the Galactic Heroes: Die Neue These - Clash"
+        },
+        {
+          "type": "Japanese",
+          "title": "銀河英雄伝説 Die Neue These 激突"
+        },
+        {
+          "type": "English",
+          "title": "Legend of the Galactic Heroes: Die Neue These - Collision"
+        }
+      ],
+      "title": "Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu",
+      "title_english": "Legend of the Galactic Heroes: Die Neue These - Collision",
+      "title_japanese": "銀河英雄伝説 Die Neue These 激突",
+      "title_synonyms": [
+        "The Legend of the Galactic Heroes: The New Thesis 3rd Season",
+        "LotGH",
+        "Legend of the Galactic Heroes: Die Neue These - Clash"
+      ],
+      "type": "Movie",
+      "source": "Novel",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2022-03-04T00:00:00+00:00",
+        "to": "2022-05-13T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 3,
+            "year": 2022
+          },
+          "to": {
+            "day": 13,
+            "month": 5,
+            "year": 2022
+          }
+        },
+        "string": "Mar 4, 2022 to May 13, 2022"
+      },
+      "duration": "25 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.32,
+      "scored_by": 8926,
+      "rank": 269,
+      "popularity": 4810,
+      "members": 24048,
+      "favorites": 137,
+      "synopsis": "As Yang is ordered to appear before the Free Planet Alliance, he’s shaken by the corruption he discovers. Meanwhile, Marshal Reinhardt uncovers disloyalty under his command as an upstart admiral launches a vicious offensive to retake the Iserlohn Fortress. Struggling to make strides in this never-ending bloody war, these two finally see their true enemy lies not from without—but from within!\n\n(Source: Crunchyroll)",
+      "background": "Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu was first released in theaters in three chapters of four standard episodes each for a limited three-week screening of each part.",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 109,
+          "type": "anime",
+          "name": "Shochiku",
+          "url": "https://myanimelist.net/anime/producer/109/Shochiku"
+        },
+        {
+          "mal_id": 2434,
+          "type": "anime",
+          "name": "Wright Staff",
+          "url": "https://myanimelist.net/anime/producer/2434/Wright_Staff"
+        },
+        {
+          "mal_id": 2435,
+          "type": "anime",
+          "name": "Aiming",
+          "url": "https://myanimelist.net/anime/producer/2435/Aiming"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 1468,
+          "type": "anime",
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Production I.G",
+          "url": "https://myanimelist.net/anime/producer/10/Production_IG"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        },
+        {
+          "mal_id": 38,
+          "type": "anime",
+          "name": "Military",
+          "url": "https://myanimelist.net/anime/genre/38/Military"
+        },
+        {
+          "mal_id": 29,
+          "type": "anime",
+          "name": "Space",
+          "url": "https://myanimelist.net/anime/genre/29/Space"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 40267,
+      "url": "https://myanimelist.net/anime/40267/Wave_Surfing_Yappe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1841/127603.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1841/127603t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1841/127603l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1841/127603.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1841/127603t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1841/127603l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "r8-N-JXhRQ4",
+        "url": "https://www.youtube.com/watch?v=r8-N-JXhRQ4",
+        "embed_url": "https://www.youtube.com/embed/r8-N-JXhRQ4?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/r8-N-JXhRQ4/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/r8-N-JXhRQ4/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/r8-N-JXhRQ4/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/r8-N-JXhRQ4/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/r8-N-JXhRQ4/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Wave!! Surfing Yappe!!"
+        },
+        {
+          "type": "Japanese",
+          "title": "WAVE!!～サーフィンやっぺ!!～"
+        },
+        {
+          "type": "German",
+          "title": "Wave!! -Let's Go surfing!!-"
+        },
+        {
+          "type": "French",
+          "title": "Wave!! -Let's Go surfing!!-"
+        }
+      ],
+      "title": "Wave!! Surfing Yappe!!",
+      "title_english": null,
+      "title_japanese": "WAVE!!～サーフィンやっぺ!!～",
+      "title_synonyms": [],
+      "type": "Movie",
+      "source": "Mixed media",
+      "episodes": 3,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2020-10-02T00:00:00+00:00",
+        "to": "2020-10-30T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 2,
+            "month": 10,
+            "year": 2020
+          },
+          "to": {
+            "day": 30,
+            "month": 10,
+            "year": 2020
+          }
+        },
+        "string": "Oct 2, 2020 to Oct 30, 2020"
+      },
+      "duration": "1 hr 27 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 6.01,
+      "scored_by": 1953,
+      "rank": 9965,
+      "popularity": 5260,
+      "members": 19309,
+      "favorites": 67,
+      "synopsis": "For years, 14-year-old Masaki Hinaoka showed no interest in surfing, despite it being his best friend Nalu Tanaka's favorite pastime. But his mind changes in the blink of an eye when he encounters a blond boy surfing at sunrise. He finds the boy beautiful and graceful, awakening unfamiliar feelings that draw him toward the surfboard and ride the waves himself. The newcomer, Shou Akitsuki, gladly helps Masaki experience his first surfboarding feats.\n\nAlthough he cannot swim, Masaki exceeds his friends' expectations and shows incredible capability early on. This earns him a spot in a local competition, where he gets the chance to befriend other skilled surfers with unique styles and personalities, fueling his drive to improve. When a sudden tragedy strikes, however, all seems hopeless—but with the help of his newfound friends, Masaki continues to strive for success and to conquer the wildest of waves.\n\n[Written by MAL Rewrite]",
+      "background": "",
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": null
+      },
+      "producers": [
+        {
+          "mal_id": 711,
+          "type": "anime",
+          "name": "Delfi Sound",
+          "url": "https://myanimelist.net/anime/producer/711/Delfi_Sound"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 406,
+          "type": "anime",
+          "name": "Asahi Production",
+          "url": "https://myanimelist.net/anime/producer/406/Asahi_Production"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        },
+        {
+          "mal_id": 30,
+          "type": "anime",
+          "name": "Sports",
+          "url": "https://myanimelist.net/anime/genre/30/Sports"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+  "data": {
+    "promo": [
+      {
+        "title": "PV 3",
+        "trailer": {
+          "youtube_id": "NpDvoopi0AE",
+          "url": "https://www.youtube.com/watch?v=NpDvoopi0AE",
+          "embed_url": "https://www.youtube.com/embed/NpDvoopi0AE?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/NpDvoopi0AE/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/NpDvoopi0AE/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/NpDvoopi0AE/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/NpDvoopi0AE/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/NpDvoopi0AE/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "PV 2 (English sub)",
+        "trailer": {
+          "youtube_id": "SJ28o0f2BAs",
+          "url": "https://www.youtube.com/watch?v=SJ28o0f2BAs",
+          "embed_url": "https://www.youtube.com/embed/SJ28o0f2BAs?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/SJ28o0f2BAs/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/SJ28o0f2BAs/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/SJ28o0f2BAs/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/SJ28o0f2BAs/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/SJ28o0f2BAs/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "PV 2",
+        "trailer": {
+          "youtube_id": "m_iuJtzZLjY",
+          "url": "https://www.youtube.com/watch?v=m_iuJtzZLjY",
+          "embed_url": "https://www.youtube.com/embed/m_iuJtzZLjY?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/m_iuJtzZLjY/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/m_iuJtzZLjY/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/m_iuJtzZLjY/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/m_iuJtzZLjY/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/m_iuJtzZLjY/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "PV 1",
+        "trailer": {
+          "youtube_id": "JQc2JWkPgQo",
+          "url": "https://www.youtube.com/watch?v=JQc2JWkPgQo",
+          "embed_url": "https://www.youtube.com/embed/JQc2JWkPgQo?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/JQc2JWkPgQo/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/JQc2JWkPgQo/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/JQc2JWkPgQo/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/JQc2JWkPgQo/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/JQc2JWkPgQo/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "Character PV Yuuichirou Kurono",
+        "trailer": {
+          "youtube_id": "dG-wuTsdFwc",
+          "url": "https://www.youtube.com/watch?v=dG-wuTsdFwc",
+          "embed_url": "https://www.youtube.com/embed/dG-wuTsdFwc?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/dG-wuTsdFwc/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/dG-wuTsdFwc/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/dG-wuTsdFwc/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/dG-wuTsdFwc/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/dG-wuTsdFwc/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "Character PV Scop and Yata",
+        "trailer": {
+          "youtube_id": "Dqf4iim_72Q",
+          "url": "https://www.youtube.com/watch?v=Dqf4iim_72Q",
+          "embed_url": "https://www.youtube.com/embed/Dqf4iim_72Q?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/Dqf4iim_72Q/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/Dqf4iim_72Q/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/Dqf4iim_72Q/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/Dqf4iim_72Q/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/Dqf4iim_72Q/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "Character PV Purt",
+        "trailer": {
+          "youtube_id": "LvGtLJcnk1g",
+          "url": "https://www.youtube.com/watch?v=LvGtLJcnk1g",
+          "embed_url": "https://www.youtube.com/embed/LvGtLJcnk1g?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/LvGtLJcnk1g/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/LvGtLJcnk1g/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/LvGtLJcnk1g/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/LvGtLJcnk1g/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/LvGtLJcnk1g/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "Character PV Ogun",
+        "trailer": {
+          "youtube_id": "nWkCSFlLTv4",
+          "url": "https://www.youtube.com/watch?v=nWkCSFlLTv4",
+          "embed_url": "https://www.youtube.com/embed/nWkCSFlLTv4?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/nWkCSFlLTv4/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/nWkCSFlLTv4/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/nWkCSFlLTv4/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/nWkCSFlLTv4/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/nWkCSFlLTv4/maxresdefault.jpg"
+          }
+        }
+      },
+      {
+        "title": "Announcement CM",
+        "trailer": {
+          "youtube_id": "7oYc8_SMlYM",
+          "url": "https://www.youtube.com/watch?v=7oYc8_SMlYM",
+          "embed_url": "https://www.youtube.com/embed/7oYc8_SMlYM?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/7oYc8_SMlYM/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/7oYc8_SMlYM/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/7oYc8_SMlYM/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/7oYc8_SMlYM/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/7oYc8_SMlYM/maxresdefault.jpg"
+          }
+        }
+      }
+    ],
+    "episodes": [
+      {
+        "mal_id": 48,
+        "title": "Signs of Upheaval",
+        "episode": "Episode 48",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/48",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/d23e991fa2536eb8a952dea71f8513271607658255_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 47,
+        "title": "Firecat",
+        "episode": "Episode 47",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/47",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/59beda60fb667246faade2fdf8650eae1607072619_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 46,
+        "title": "Plot for Extinction",
+        "episode": "Episode 46",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/46",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/eb7a3de3ea0c000aaf0988bc46a58a6a1606435582_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 45,
+        "title": "Enemy Contact",
+        "episode": "Episode 45",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/45",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/bcbe6f28cf2c088231f19e36b90c55eb1605853292_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 44,
+        "title": "Weapon of Destruction",
+        "episode": "Episode 44",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/44",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/194f75b1ceebb42962df55e710ed58d81605238792_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 43,
+        "title": "The Oze Family",
+        "episode": "Episode 43",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/43",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/dcc7896933929037e390830dbfbd76b71604634636_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 42,
+        "title": "The Holy Woman's Anguish / The Man, Assault",
+        "episode": "Episode 42",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/42",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/3a751874b54171efffa17bcde71010cf1604023628_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 41,
+        "title": "Boys, Be Weak",
+        "episode": "Episode 41",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/41",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/7cbd6a55adf19566f3e25513e9de1ed71603426407_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 40,
+        "title": "Mind Blown",
+        "episode": "Episode 40",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/40",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/2b11ab9bce55aff2a01581e499e4a98c1602838374_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 39,
+        "title": "A Three-Way Melee",
+        "episode": "Episode 39",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/39",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/fb6bc7707850a5a428ad58280db199e61602225409_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 38,
+        "title": "The Ashen Reaper",
+        "episode": "Episode 38",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/38",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire1-tmb/b11623c2f196891ea96adc93406d7b5d1601625452_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 37,
+        "title": "A Pair of One-Eyes",
+        "episode": "Episode 37",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/37",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire1-tmb/d46e2b3d1def28bf48fd44432588690f1601018715_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 36,
+        "title": "Shadows Cast by Divine Light",
+        "episode": "Episode 36",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/36",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/daa4d398f2cb38cf67119aa027d03aa51600408997_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 35,
+        "title": "Dark Hero",
+        "episode": "Episode 35",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/35",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/5bac3c425b4177419aa52070a1b71d811599805070_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 34,
+        "title": "The Woman in Black",
+        "episode": "Episode 34",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/34",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/8bb20eea02bd8109da5f535706c788c21599193122_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 33,
+        "title": "The Core",
+        "episode": "Episode 33",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/33",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/c3317b04d0f5f08afe1632e41f7080a21598592987_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 32,
+        "title": "Smoldering Malevolence",
+        "episode": "Episode 32",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/32",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/53f2ea623283b878a2dcf34c9c8e07de1597986853_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 31,
+        "title": "Road to the Oasis",
+        "episode": "Episode 31",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/31",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/26dd83e56c88b3282bf97429c9a5d1d11597375234_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 30,
+        "title": "The Time to Choose",
+        "episode": "Episode 30",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/30",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/17632e1c3dcd74e2a3b9c656a993148a1596759447_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 29,
+        "title": "Corna (Sign of the Devil) / A Secret Plan",
+        "episode": "Episode 29",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/29",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/dbe5bdb80811795177164346b6c08e6b1596182108_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 28,
+        "title": "Groping Through the Fire",
+        "episode": "Episode 28",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/28",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/b22b213603a7d7f884dc9bc824ede0351595562695_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 27,
+        "title": "A New Flashpoint",
+        "episode": "Episode 27",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/27",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/919974b58d87d8255c020e6d11bba8d71594970351_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 26,
+        "title": "Flames of Madness",
+        "episode": "Episode 26",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/26",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/70e7c3b42af62eda4a2c5bc81264fa161594379232_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 25,
+        "title": "A Fire Soldier's Fight",
+        "episode": "Episode 25",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/25",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/08eda542efddcd413ef83593967da7ac1593757168_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 24,
+        "title": "Signs of Upheaval",
+        "episode": "Episode 24",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/24",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/d23e991fa2536eb8a952dea71f8513271607658255_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 23,
+        "title": "Firecat",
+        "episode": "Episode 23",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/23",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/59beda60fb667246faade2fdf8650eae1607072619_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 22,
+        "title": "Plot for Extinction",
+        "episode": "Episode 22",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/22",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/eb7a3de3ea0c000aaf0988bc46a58a6a1606435582_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 21,
+        "title": "Enemy Contact",
+        "episode": "Episode 21",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/21",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/bcbe6f28cf2c088231f19e36b90c55eb1605853292_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 20,
+        "title": "Weapon of Destruction",
+        "episode": "Episode 20",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/20",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/194f75b1ceebb42962df55e710ed58d81605238792_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 19,
+        "title": "The Oze Family",
+        "episode": "Episode 19",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/19",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/dcc7896933929037e390830dbfbd76b71604634636_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 18,
+        "title": "The Holy Woman's Anguish / The Man, Assault",
+        "episode": "Episode 18",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/18",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/3a751874b54171efffa17bcde71010cf1604023628_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 17,
+        "title": "Boys, Be Weak",
+        "episode": "Episode 17",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/17",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/7cbd6a55adf19566f3e25513e9de1ed71603426407_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 16,
+        "title": "Mind Blown",
+        "episode": "Episode 16",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/16",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire4-tmb/2b11ab9bce55aff2a01581e499e4a98c1602838374_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 15,
+        "title": "A Three-Way Melee",
+        "episode": "Episode 15",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/15",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire3-tmb/fb6bc7707850a5a428ad58280db199e61602225409_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 14,
+        "title": "The Ashen Reaper",
+        "episode": "Episode 14",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/14",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire1-tmb/b11623c2f196891ea96adc93406d7b5d1601625452_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 13,
+        "title": "A Pair of One-Eyes",
+        "episode": "Episode 13",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/13",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire1-tmb/d46e2b3d1def28bf48fd44432588690f1601018715_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 12,
+        "title": "Shadows Cast by Divine Light",
+        "episode": "Episode 12",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/12",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/daa4d398f2cb38cf67119aa027d03aa51600408997_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 11,
+        "title": "Dark Hero",
+        "episode": "Episode 11",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/11",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/5bac3c425b4177419aa52070a1b71d811599805070_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 10,
+        "title": "The Woman in Black",
+        "episode": "Episode 10",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/10",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/8bb20eea02bd8109da5f535706c788c21599193122_large.jpg"
+          }
+        }
+      },
+      {
+        "mal_id": 9,
+        "title": "The Core",
+        "episode": "Episode 9",
+        "url": "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou/episode/9",
+        "images": {
+          "jpg": {
+            "image_url": "https://img1.ak.crunchyroll.com/i/spire2-tmb/c3317b04d0f5f08afe1632e41f7080a21598592987_large.jpg"
+          }
+        }
+      }
+    ],
+    "music_videos": [
+      {
+        "title": "OP 1 (Artist ver.)",
+        "video": {
+          "youtube_id": "dZ0Jt1zYj7g",
+          "url": "https://www.youtube.com/watch?v=dZ0Jt1zYj7g",
+          "embed_url": "https://www.youtube.com/embed/dZ0Jt1zYj7g?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/dZ0Jt1zYj7g/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/dZ0Jt1zYj7g/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/dZ0Jt1zYj7g/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/dZ0Jt1zYj7g/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/dZ0Jt1zYj7g/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": "\"SPARK-AGAIN\"",
+          "author": "Aimer"
+        }
+      },
+      {
+        "title": "OP 1 (Anime ver.)",
+        "video": {
+          "youtube_id": "5cAXZQgiw_k",
+          "url": "https://www.youtube.com/watch?v=5cAXZQgiw_k",
+          "embed_url": "https://www.youtube.com/embed/5cAXZQgiw_k?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/5cAXZQgiw_k/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/5cAXZQgiw_k/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/5cAXZQgiw_k/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/5cAXZQgiw_k/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/5cAXZQgiw_k/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": null,
+          "author": null
+        }
+      },
+      {
+        "title": "OP 2 (Artist ver.)",
+        "video": {
+          "youtube_id": "oaPstRhoYLE",
+          "url": "https://www.youtube.com/watch?v=oaPstRhoYLE",
+          "embed_url": "https://www.youtube.com/embed/oaPstRhoYLE?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/oaPstRhoYLE/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/oaPstRhoYLE/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/oaPstRhoYLE/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/oaPstRhoYLE/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/oaPstRhoYLE/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": "\"Torch of Liberty\"",
+          "author": "KANA-BOON"
+        }
+      },
+      {
+        "title": "OP 2 (Anime ver.)",
+        "video": {
+          "youtube_id": "ZfFmJVHeQkY",
+          "url": "https://www.youtube.com/watch?v=ZfFmJVHeQkY",
+          "embed_url": "https://www.youtube.com/embed/ZfFmJVHeQkY?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/ZfFmJVHeQkY/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/ZfFmJVHeQkY/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/ZfFmJVHeQkY/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/ZfFmJVHeQkY/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/ZfFmJVHeQkY/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": null,
+          "author": null
+        }
+      },
+      {
+        "title": "ED 1 (Artist ver.)",
+        "video": {
+          "youtube_id": "Lavdgx5xHZg",
+          "url": "https://www.youtube.com/watch?v=Lavdgx5xHZg",
+          "embed_url": "https://www.youtube.com/embed/Lavdgx5xHZg?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/Lavdgx5xHZg/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/Lavdgx5xHZg/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/Lavdgx5xHZg/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/Lavdgx5xHZg/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/Lavdgx5xHZg/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": "\"ID\"",
+          "author": "Cidergirl"
+        }
+      },
+      {
+        "title": "ED 2 (Artist ver.)",
+        "video": {
+          "youtube_id": "K_Q0iY_jKBs",
+          "url": "https://www.youtube.com/watch?v=K_Q0iY_jKBs",
+          "embed_url": "https://www.youtube.com/embed/K_Q0iY_jKBs?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/K_Q0iY_jKBs/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/K_Q0iY_jKBs/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/K_Q0iY_jKBs/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/K_Q0iY_jKBs/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/K_Q0iY_jKBs/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": "\"Desire (ディザイア)\"",
+          "author": "PELICAN FANCLUB"
+        }
+      },
+      {
+        "title": "ED 3 (Artist ver.)",
+        "video": {
+          "youtube_id": "wfCcs0vLysk",
+          "url": "https://www.youtube.com/watch?v=wfCcs0vLysk",
+          "embed_url": "https://www.youtube.com/embed/wfCcs0vLysk?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/wfCcs0vLysk/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/wfCcs0vLysk/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/wfCcs0vLysk/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/wfCcs0vLysk/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/wfCcs0vLysk/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": "\"Inferno (インフェルノ)\"",
+          "author": "Mrs.GREEN APPLE"
+        }
+      },
+      {
+        "title": "ED 3 (Anime ver.)",
+        "video": {
+          "youtube_id": "ah1zyO3ob_A",
+          "url": "https://www.youtube.com/watch?v=ah1zyO3ob_A",
+          "embed_url": "https://www.youtube.com/embed/ah1zyO3ob_A?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+            "image_url": "https://img.youtube.com/vi/ah1zyO3ob_A/default.jpg",
+            "small_image_url": "https://img.youtube.com/vi/ah1zyO3ob_A/sddefault.jpg",
+            "medium_image_url": "https://img.youtube.com/vi/ah1zyO3ob_A/mqdefault.jpg",
+            "large_image_url": "https://img.youtube.com/vi/ah1zyO3ob_A/hqdefault.jpg",
+            "maximum_image_url": "https://img.youtube.com/vi/ah1zyO3ob_A/maxresdefault.jpg"
+          }
+        },
+        "meta": {
+          "title": null,
+          "author": null
+        }
+      }
+    ]
+  }
+}
