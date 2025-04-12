@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 
 import { useOnValue } from '@/hooks/useOnValue';
+import { TimerFetch } from '@/lib/fetch';
 
 import Header from '../../components/header';
 import { Tabs } from '../../components/tabs';
@@ -12,6 +13,8 @@ import HeroSection from './_components/hero-section';
 import TabAnime from './_components/tab-anime';
 import TabsHeader from './_components/tabs-header';
 import { AnimeType } from './types';
+
+const time = new TimerFetch();
 
 const Main = () => {
   const [tab, setTab] = useState<AnimeType>(AnimeType.list);
@@ -28,13 +31,15 @@ const Main = () => {
   }, []);
 
   async function fetch(signal: AbortSignal) {
+    time.start();
     await Promise.allSettled([func.onAnime('', signal), func.onAnime(AnimeType.list, signal), func.onReview(signal)]);
+    await time.stop();
   }
 
   const handleTab = (() => {
     let controller: AbortController | null = null;
 
-    return (val: string) => {
+    return async (val: string) => {
       // Abort previous request
       if (controller) controller.abort();
 
@@ -42,7 +47,10 @@ const Main = () => {
       controller = new AbortController();
       const signal = controller.signal;
 
-      func.onAnime(val, signal); // assuming func.onAnime can handle signal
+      time.start();
+      await func.onAnime(val, signal); // assuming func.onAnime can handle signal
+      await time.stop();
+
       setTab(val as AnimeType);
     };
   })();

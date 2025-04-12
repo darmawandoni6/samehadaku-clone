@@ -3,7 +3,14 @@
 import { FC, ReactNode, createContext, useState } from 'react';
 
 import { AnimeType } from './constants';
+import { TimerFetch } from './fetch';
 
+interface Detail {
+  data: AnimeApi;
+  related: RelationAnime[];
+  character: ListCharacter[];
+  video: Video;
+}
 interface InitialState {
   topAnime: AnimeApi[];
   list: AnimeApi[];
@@ -12,17 +19,13 @@ interface InitialState {
   complete: AnimeApi[];
   review: ReviewApi[];
   detail: {
-    [id: string]: {
-      data: AnimeApi;
-      related: RelationAnime[];
-      character: ListCharacter[];
-      video: Video;
-    };
+    [id: string]: Detail;
   };
 }
 interface InitialFunc {
   onAnime: (val: string, signal: AbortSignal) => Promise<void>;
   onAnimeDetail: (id: string, signal: AbortSignal) => Promise<void>;
+  onSubAnimeDetail: (id: string, signal: AbortSignal) => Promise<void>;
   onReview: (signal: AbortSignal) => Promise<void>;
 }
 
@@ -41,10 +44,17 @@ const initialContext: Context = {
     review: [],
     detail: {},
   },
-  onValue: { onAnime: async () => {}, onReview: async () => {}, onAnimeDetail: async () => {} },
+  onValue: {
+    onAnime: async () => {},
+    onReview: async () => {},
+    onAnimeDetail: async () => {},
+    onSubAnimeDetail: async () => {},
+  },
 };
 
 export const ContextAnime = createContext<Context>(initialContext);
+
+const time = new TimerFetch();
 
 export const Provider: FC<{ children: ReactNode }> = ({ children }) => {
   const [state, setState] = useState<InitialState>(initialContext.value);
@@ -111,40 +121,69 @@ export const Provider: FC<{ children: ReactNode }> = ({ children }) => {
       }
     },
     onAnimeDetail: async function (id: string, signal: AbortSignal): Promise<void> {
-      if (state.detail[id]) return;
-      const [detail, related] = await Promise.all([
-        fetchData<AnimeApi>(`https://api.jikan.moe/v4/anime/${id}`, signal),
-        fetchData<RelationAnime[]>(`https://api.jikan.moe/v4/anime/${id}/relations`, signal),
-      ]);
-
-      const [video, character] = await Promise.all([
-        fetchData<Video>(`https://api.jikan.moe/v4/anime/${id}/videos`, signal),
-        fetchData<ListCharacter[]>(`https://api.jikan.moe/v4/anime/${id}/characters`, signal),
-      ]);
-
-      if (detail && related && video && character) {
-        setState(prev => ({
-          ...prev,
-          detail: {
-            ...prev.detail,
-            [id]: {
-              data: detail,
-              character,
-              video,
-              related,
-            },
-          },
-        }));
-      }
+      time.start();
+      await Promise.allSettled([handleDetail<AnimeApi>('data', id, signal)]);
+      await time.stop();
     },
+    onSubAnimeDetail: async function (id: string, signal: AbortSignal): Promise<void> {
+      time.start();
+      await Promise.allSettled([
+        handleDetail<Video>('video', id, signal),
+        handleDetail<RelationAnime[]>('related', id, signal),
+        handleDetail<ListCharacter[]>('character', id, signal),
+      ]);
+      await time.stop();
+    },
+  };
+
+  const handleDetail = async <T,>(key: keyof Detail, id: string, signal: AbortSignal) => {
+    if (state.detail[id] && state.detail[id][key]) return;
+
+    let url: string;
+    let defValue = null;
+    switch (key) {
+      case 'related':
+        url = `https://api.jikan.moe/v4/anime/${id}/relations`;
+        defValue = [] as T;
+        break;
+
+      case 'video':
+        url = `https://api.jikan.moe/v4/anime/${id}/videos`;
+        break;
+
+      case 'character':
+        url = `https://api.jikan.moe/v4/anime/${id}/characters`;
+        defValue = [] as T;
+        break;
+
+      default:
+        url = `https://api.jikan.moe/v4/anime/${id}`;
+        break;
+    }
+    const data = await fetchData<T>(url, signal);
+
+    setState(prev => ({
+      ...prev,
+      detail: {
+        ...prev.detail,
+        [id]: {
+          ...prev.detail[id],
+          [key]: data ?? defValue,
+        },
+      },
+    }));
   };
 
   async function fetchData<T>(url: string, signal: AbortSignal): Promise<T> {
     try {
       const res = await fetch(url, { signal });
-      if (!res.ok) throw new Error();
 
+      if (!res.ok) {
+        console.warn(`Request failed with status ${res.status}`);
+        return null as T;
+      }
       const data = await res.json();
+
       return data.data;
     } catch (error) {
       console.error(error);

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 
 import { useParams } from 'next/navigation';
 
@@ -17,25 +17,31 @@ const Page = () => {
   const func = useOnValue();
   const value = useValue();
 
-  const [anime, setAnime] = useState<AnimeApi>();
-
-  const detail = useMemo(() => {
-    return value.detail[params.id] || null;
+  const { data: anime, video } = useMemo(() => {
+    if (value.detail[params.id]) {
+      return value.detail[params.id];
+    }
+    return {
+      data: null,
+      related: [],
+      character: [],
+      video: null,
+    };
   }, [value.detail[params.id]]);
 
   useEffect(() => {
-    if (detail) {
-      setAnime(detail.data);
-    } else {
-      const controller = new AbortController();
-      const signal = controller.signal;
+    const controller = new AbortController();
+    const signal = controller.signal;
 
-      func.onAnimeDetail(params.id, signal);
-      return () => {
-        controller.abort();
-      };
-    }
-  }, [detail]);
+    const fetch = async () => {
+      await func.onAnimeDetail(params.id, signal);
+      await func.onSubAnimeDetail(params.id, signal);
+    };
+    fetch();
+    return () => {
+      controller.abort();
+    };
+  }, []);
 
   if (!anime) return;
 
@@ -74,7 +80,7 @@ const Page = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Left />
-          <Right />
+          {video && <Right />}
         </div>
       </div>
     </>

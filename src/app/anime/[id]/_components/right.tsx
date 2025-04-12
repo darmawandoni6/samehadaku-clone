@@ -32,7 +32,12 @@ const Right = () => {
     return value.detail[params.id];
   }, [value.detail[params.id]]);
 
-  const relatedAnime = useMemo(() => related.flatMap(item => item.entry), [related]);
+  const relatedAnime = useMemo(() => {
+    if (!related) {
+      return [];
+    }
+    return related.flatMap(item => item.entry);
+  }, [related]);
 
   useEffect(() => {
     if (relatedAnime[0]) {
@@ -64,8 +69,9 @@ const Right = () => {
 
   const hideTab: Type[] = useMemo(() => {
     const res: Type[] = [];
-    if (!character[0]) res.push(Type.characters);
-    if (!video.episodes[0]) res.push(Type.episodes);
+
+    if (!Array.isArray(character)) res.push(Type.characters);
+    if (!Array.isArray(video.episodes)) res.push(Type.episodes);
     return res;
   }, [character, video]);
 
@@ -83,77 +89,79 @@ const Right = () => {
         </TabsContent>
         <TabsContent value={Type.characters} className="flex flex-col gap-4 mt-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {character.slice(0, 10).map((item, i) => (
-              <div className="grid grid-cols-2 gap-2" key={i}>
-                <div className="flex gap-4 w-full">
-                  <div className="w-16 aspect-[4/5] overflow-hidden flex-shrink-0">
-                    <Image
-                      alt={item.character.name}
-                      className="w-full h-full object-cover"
-                      width={40}
-                      height={40}
-                      src={item.character.images.webp.image_url.split('?')[0]}
-                      onError={e => {
-                        e.currentTarget.src = '/placeholder.svg?height=40&amp;width=40';
-                      }}
-                      unoptimized={unOptimize(item.character.images.webp.image_url.split('?')[0])}
-                    />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-sm truncate w-full">{item.character.name}</h3>
-                    <p className="text-sm">{item.role}</p>
-                  </div>
-                </div>
-                {item.voice_actors[0] && (
+            {character &&
+              character.slice(0, 10).map((item, i) => (
+                <div className="grid grid-cols-2 gap-2" key={i}>
                   <div className="flex gap-4 w-full">
-                    <div className="flex-1 min-w-0">
-                      <h3 className="font-bold text-sm truncate w-full">{item.voice_actors[0].person.name}</h3>
-                      <p className="text-sm">{item.voice_actors[0].language}</p>
-                    </div>
                     <div className="w-16 aspect-[4/5] overflow-hidden flex-shrink-0">
                       <Image
-                        alt={item.voice_actors[0].person.name}
+                        alt={item.character.name}
                         className="w-full h-full object-cover"
                         width={40}
                         height={40}
-                        src={item.voice_actors[0].person.images.jpg.image_url.split('?')[0]}
+                        src={item.character.images.webp.image_url.split('?')[0]}
                         onError={e => {
                           e.currentTarget.src = '/placeholder.svg?height=40&amp;width=40';
                         }}
-                        unoptimized={unOptimize(item.voice_actors[0].person.images.jpg.image_url.split('?')[0])}
+                        unoptimized={unOptimize(item.character.images.webp.image_url.split('?')[0])}
                       />
                     </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-bold text-sm truncate w-full">{item.character.name}</h3>
+                      <p className="text-sm">{item.role}</p>
+                    </div>
                   </div>
-                )}
-              </div>
-            ))}
+                  {item.voice_actors[0] && (
+                    <div className="flex gap-4 w-full">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-sm truncate w-full">{item.voice_actors[0].person.name}</h3>
+                        <p className="text-sm">{item.voice_actors[0].language}</p>
+                      </div>
+                      <div className="w-16 aspect-[4/5] overflow-hidden flex-shrink-0">
+                        <Image
+                          alt={item.voice_actors[0].person.name}
+                          className="w-full h-full object-cover"
+                          width={40}
+                          height={40}
+                          src={item.voice_actors[0].person.images.jpg.image_url.split('?')[0]}
+                          onError={e => {
+                            e.currentTarget.src = '/placeholder.svg?height=40&amp;width=40';
+                          }}
+                          unoptimized={unOptimize(item.voice_actors[0].person.images.jpg.image_url.split('?')[0])}
+                        />
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
           </div>
         </TabsContent>
         <TabsContent value={Type.episodes} className="mt-0">
           <ul className="flex flex-col gap-2">
-            {video.episodes.slice(0, more).map((item, i) => (
-              <li key={i}>
-                <div className="flex gap-4 w-full">
-                  <div className="w-16 aspect-[4/5] overflow-hidden flex-shrink-0">
-                    <Image
-                      alt={item.title}
-                      className="w-full h-full object-cover"
-                      width={40}
-                      height={40}
-                      src={item.images.jpg.image_url}
-                      onError={e => {
-                        e.currentTarget.src = '/placeholder.svg?height=40&amp;width=40';
-                      }}
-                      unoptimized={unOptimize(item.images.jpg.image_url)}
-                    />
+            {video &&
+              video.episodes.slice(0, more).map((item, i) => (
+                <li key={i}>
+                  <div className="flex gap-4 w-full">
+                    <div className="w-16 aspect-[4/5] overflow-hidden flex-shrink-0">
+                      <Image
+                        alt={item.title}
+                        className="w-full h-full object-cover"
+                        width={40}
+                        height={40}
+                        src={item.images.jpg.image_url}
+                        onError={e => {
+                          e.currentTarget.src = '/placeholder.svg?height=40&amp;width=40';
+                        }}
+                        unoptimized={unOptimize(item.images.jpg.image_url)}
+                      />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-bold text-sm truncate w-full">{item.title}</h3>
+                      <p className="text-sm">{`Episode: ${item.mal_id}`}</p>
+                    </div>
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-sm truncate w-full">{item.title}</h3>
-                    <p className="text-sm">{`Episode: ${item.mal_id}`}</p>
-                  </div>
-                </div>
-              </li>
-            ))}
+                </li>
+              ))}
           </ul>
           {more <= video.episodes.length && (
             <div className="flex justify-center">
@@ -172,7 +180,7 @@ const Right = () => {
         </TabsContent>
       </Tabs>
 
-      {video.promo[0] && (
+      {video && video.promo[0] && (
         <div className="mt-10">
           <h2 className="text-2xl font-bold mb-6">Trailers &amp; Videos</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
