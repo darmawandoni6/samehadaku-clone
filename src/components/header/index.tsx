@@ -13,14 +13,11 @@ const Header = () => {
             <Link href="/" className="hover:text-primary">
               Home
             </Link>
-            <Link href="#" className="hover:text-primary">
-              Discover
+            <Link href="/list" className="hover:text-primary">
+              My List
             </Link>
             <Link href="#" className="hover:text-primary">
               Categories
-            </Link>
-            <Link href="#" className="hover:text-primary">
-              My List
             </Link>
             <Link href="#" className="hover:text-primary">
               Schedule

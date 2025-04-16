@@ -20,6 +20,7 @@ const Badge: FC<Props> = ({ variant = 'default', className, children }) => {
         return 'border-transparent bg-primary text-primary-foreground hover:bg-primary/80';
     }
   }, [variant]);
+
   return (
     <div
       className={cn(

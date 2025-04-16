@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react';
 import { useOnValue } from '@/hooks/useOnValue';
 import { TimerFetch } from '@/lib/fetch';
 
+import Footer from '../../components/footer';
 import Header from '../../components/header';
 import { Tabs } from '../../components/tabs';
-import Footer from './_components/footer';
 import GenreSection from './_components/genre-section';
 import HeroSection from './_components/hero-section';
 import TabAnime from './_components/tab-anime';

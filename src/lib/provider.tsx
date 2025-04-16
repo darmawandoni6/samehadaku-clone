@@ -12,6 +12,9 @@ interface Detail {
   video: Video;
 }
 interface InitialState {
+  myList: {
+    [page: string]: AnimeApi[];
+  };
   topAnime: AnimeApi[];
   list: AnimeApi[];
   airing: AnimeApi[];
@@ -27,6 +30,7 @@ interface InitialFunc {
   onAnimeDetail: (id: string, signal: AbortSignal) => Promise<void>;
   onSubAnimeDetail: (id: string, signal: AbortSignal) => Promise<void>;
   onReview: (signal: AbortSignal) => Promise<void>;
+  onList: (page: string, signal: AbortSignal) => Promise<AnimeApi[]>;
 }
 
 interface Context {
@@ -43,12 +47,16 @@ const initialContext: Context = {
     complete: [],
     review: [],
     detail: {},
+    myList: {},
   },
   onValue: {
     onAnime: async () => {},
     onReview: async () => {},
     onAnimeDetail: async () => {},
     onSubAnimeDetail: async () => {},
+    onList: async function () {
+      return [];
+    },
   },
 };
 
@@ -133,6 +141,23 @@ export const Provider: FC<{ children: ReactNode }> = ({ children }) => {
         handleDetail<ListCharacter[]>('character', id, signal),
       ]);
       await time.stop();
+    },
+    onList: async function (page: string, signal: AbortSignal): Promise<AnimeApi[]> {
+      if (state.myList[page]) {
+        return state.myList[page];
+      }
+      const url = `https://api.jikan.moe/v4/anime?page=${page}&limit=12&order_by=end_date&sort=desc&min_score=1`;
+      const data: AnimeApi[] = await fetchData(url, signal);
+      setState(prev => ({
+        ...prev,
+        myList: {
+          ...prev.myList,
+          [page]: data,
+          data,
+        },
+      }));
+
+      return data;
     },
   };
 
