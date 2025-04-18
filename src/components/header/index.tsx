@@ -16,7 +16,7 @@ const Header = () => {
             <Link href="/list" className="hover:text-primary">
               My List
             </Link>
-            <Link href="#" className="hover:text-primary">
+            <Link href="/categories" className="hover:text-primary">
               Categories
             </Link>
             <Link href="#" className="hover:text-primary">

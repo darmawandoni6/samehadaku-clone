@@ -13,7 +13,12 @@ interface Detail {
 }
 interface InitialState {
   myList: {
-    [page: string]: AnimeApi[];
+    genre: {
+      [page: string]: AnimeApi[];
+    };
+    data: {
+      [page: string]: AnimeApi[];
+    };
   };
   topAnime: AnimeApi[];
   list: AnimeApi[];
@@ -24,13 +29,15 @@ interface InitialState {
   detail: {
     [id: string]: Detail;
   };
+  genre: GenreAnime[];
 }
 interface InitialFunc {
   onAnime: (val: string, signal: AbortSignal) => Promise<void>;
   onAnimeDetail: (id: string, signal: AbortSignal) => Promise<void>;
   onSubAnimeDetail: (id: string, signal: AbortSignal) => Promise<void>;
   onReview: (signal: AbortSignal) => Promise<void>;
-  onList: (page: string, signal: AbortSignal) => Promise<AnimeApi[]>;
+  onList: (page: string, opt: { genres?: string; signal: AbortSignal }) => Promise<AnimeApi[]>;
+  onListGenre: (signal: AbortSignal) => Promise<GenreAnime[]>;
 }
 
 interface Context {
@@ -47,7 +54,11 @@ const initialContext: Context = {
     complete: [],
     review: [],
     detail: {},
-    myList: {},
+    myList: {
+      genre: {},
+      data: {},
+    },
+    genre: [],
   },
   onValue: {
     onAnime: async () => {},
@@ -55,6 +66,9 @@ const initialContext: Context = {
     onAnimeDetail: async () => {},
     onSubAnimeDetail: async () => {},
     onList: async function () {
+      return [];
+    },
+    onListGenre: async function (): Promise<GenreAnime[]> {
       return [];
     },
   },
@@ -142,22 +156,48 @@ export const Provider: FC<{ children: ReactNode }> = ({ children }) => {
       ]);
       await time.stop();
     },
-    onList: async function (page: string, signal: AbortSignal): Promise<AnimeApi[]> {
-      if (state.myList[page]) {
-        return state.myList[page];
+    onList: async function (page: string, opt: { genres?: string; signal: AbortSignal }): Promise<AnimeApi[]> {
+      const { genres, signal } = opt;
+      if (genres && state.myList.genre[`${genres}-${page}`]) {
+        return state.myList.genre[`${genres}-${page}`];
+      } else if (state.myList.data[page]) {
+        return state.myList.data[page];
       }
-      const url = `https://api.jikan.moe/v4/anime?page=${page}&limit=12&order_by=end_date&sort=desc&min_score=1`;
+      let url = `https://api.jikan.moe/v4/anime?page=${page}&limit=12&order_by=end_date&sort=desc&min_score=1`;
+      if (genres) {
+        url += `&genres=${genres}`;
+      }
       const data: AnimeApi[] = await fetchData(url, signal);
       setState(prev => ({
         ...prev,
         myList: {
           ...prev.myList,
-          [page]: data,
-          data,
+          ...(genres
+            ? {
+                genre: {
+                  ...prev.myList.genre,
+                  [`${genres}-${page}`]: data,
+                },
+              }
+            : {
+                data: {
+                  ...prev.myList.data,
+                  [page]: data,
+                },
+              }),
         },
       }));
 
       return data;
+    },
+    onListGenre: async function (signal: AbortSignal): Promise<GenreAnime[]> {
+      if (state.genre[0]) {
+        return state.genre;
+      }
+      const url = 'https://api.jikan.moe/v4/genres/anime?filter=genres';
+      const data: GenreAnime[] = await fetchData(url, signal);
+      setState(prev => ({ ...prev, genre: data }));
+      return data ?? [];
     },
   };
 

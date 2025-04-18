@@ -139,3 +139,9 @@ declare interface Episode {
     };
   };
 }
+
+declare interface GenreAnime {
+  mal_id: number;
+  name: string;
+  count: number;
+}
