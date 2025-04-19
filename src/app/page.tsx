@@ -1,7 +1,11 @@
+import { Suspense } from 'react';
+
 import Main from './main';
 
 export default async function Home() {
-  // const res = await fetchPage();
-  // heroBanner(res);
-  return <Main />;
+  return (
+    <Suspense>
+      <Main />
+    </Suspense>
+  );
 }
