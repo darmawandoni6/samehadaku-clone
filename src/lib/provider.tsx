@@ -30,6 +30,12 @@ interface InitialState {
     [id: string]: Detail;
   };
   genre: GenreAnime[];
+  schedule: {
+    [day: string]: {
+      page: number;
+      data: AnimeApi[];
+    };
+  };
 }
 interface InitialFunc {
   onAnime: (val: string, signal: AbortSignal) => Promise<void>;
@@ -38,6 +44,7 @@ interface InitialFunc {
   onReview: (signal: AbortSignal) => Promise<void>;
   onList: (page: string, opt: { genres?: string; signal: AbortSignal }) => Promise<AnimeApi[]>;
   onListGenre: (signal: AbortSignal) => Promise<GenreAnime[]>;
+  onSchedule: (day: string, loadMore: boolean, signal: AbortSignal) => Promise<AnimeApi[]>;
 }
 
 interface Context {
@@ -59,6 +66,7 @@ const initialContext: Context = {
       data: {},
     },
     genre: [],
+    schedule: {},
   },
   onValue: {
     onAnime: async () => {},
@@ -69,6 +77,9 @@ const initialContext: Context = {
       return [];
     },
     onListGenre: async function (): Promise<GenreAnime[]> {
+      return [];
+    },
+    onSchedule: async function (): Promise<AnimeApi[]> {
       return [];
     },
   },
@@ -198,6 +209,31 @@ export const Provider: FC<{ children: ReactNode }> = ({ children }) => {
       const data: GenreAnime[] = await fetchData(url, signal);
       setState(prev => ({ ...prev, genre: data }));
       return data ?? [];
+    },
+    onSchedule: async function (day: string, loadMore: boolean, signal: AbortSignal): Promise<AnimeApi[]> {
+      const { data: v_d, page: v_p } = state.schedule[day] ?? { data: [], page: 1 };
+      if (!loadMore && v_d[0]) {
+        return v_d;
+      }
+      let page = v_p ?? 1;
+      if (loadMore) {
+        page += 1;
+      }
+
+      const url = `https://api.jikan.moe/v4/schedules?page=${page}&limit=12&filter=${day}`;
+      const data: AnimeApi[] = await fetchData(url, signal);
+      setState(prev => ({
+        ...prev,
+        schedule: {
+          ...prev.schedule,
+          [day]: {
+            page,
+            data: [...(prev.schedule[day] ? [...prev.schedule[day].data] : []), ...data],
+          },
+        },
+      }));
+
+      return [...v_d, ...data];
     },
   };
 

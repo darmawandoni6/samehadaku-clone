@@ -19,7 +19,7 @@ const Header = () => {
             <Link href="/categories" className="hover:text-primary">
               Categories
             </Link>
-            <Link href="#" className="hover:text-primary">
+            <Link href="/schedule" className="hover:text-primary">
               Schedule
             </Link>
           </nav>

@@ -1,0 +1,1615 @@
+{
+  "pagination": {
+    "last_visible_page": 2,
+    "has_next_page": true,
+    "current_page": 1,
+    "items": {
+      "count": 12,
+      "total": 18,
+      "per_page": 12
+    }
+  },
+  "data": [
+    {
+      "mal_id": 60612,
+      "url": "https://myanimelist.net/anime/60612/Shibuya♡Hachi_Part_3",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1804/148377.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1804/148377.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "m18b_LPe-DU",
+        "url": "https://www.youtube.com/watch?v=m18b_LPe-DU",
+        "embed_url": "https://www.youtube.com/embed/m18b_LPe-DU?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/m18b_LPe-DU/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Shibuya♡Hachi Part 3"
+        },
+        {
+          "type": "Japanese",
+          "title": "SHIBUYA♡HACHI 第3クール"
+        }
+      ],
+      "title": "Shibuya♡Hachi Part 3",
+      "title_english": null,
+      "title_japanese": "SHIBUYA♡HACHI 第3クール",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Other",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "2 min",
+      "rating": "G - All Ages",
+      "score": null,
+      "scored_by": null,
+      "rank": 14357,
+      "popularity": 20905,
+      "members": 248,
+      "favorites": 0,
+      "synopsis": "Part 3 of Shibuya♡Hachi.",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "07:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 07:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 1303,
+          "type": "anime",
+          "name": "PansonWorks",
+          "url": "https://myanimelist.net/anime/producer/1303/PansonWorks"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Nippon Animation",
+          "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60612,
+      "url": "https://myanimelist.net/anime/60612/Shibuya♡Hachi_Part_3",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1804/148377.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1804/148377.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1804/148377l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "m18b_LPe-DU",
+        "url": "https://www.youtube.com/watch?v=m18b_LPe-DU",
+        "embed_url": "https://www.youtube.com/embed/m18b_LPe-DU?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/m18b_LPe-DU/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/m18b_LPe-DU/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Shibuya♡Hachi Part 3"
+        },
+        {
+          "type": "Japanese",
+          "title": "SHIBUYA♡HACHI 第3クール"
+        }
+      ],
+      "title": "Shibuya♡Hachi Part 3",
+      "title_english": null,
+      "title_japanese": "SHIBUYA♡HACHI 第3クール",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Other",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "2 min",
+      "rating": "G - All Ages",
+      "score": null,
+      "scored_by": null,
+      "rank": 14357,
+      "popularity": 20905,
+      "members": 248,
+      "favorites": 0,
+      "synopsis": "Part 3 of Shibuya♡Hachi.",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "07:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 07:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 1303,
+          "type": "anime",
+          "name": "PansonWorks",
+          "url": "https://myanimelist.net/anime/producer/1303/PansonWorks"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Nippon Animation",
+          "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 58631,
+      "url": "https://myanimelist.net/anime/58631/Oshiri_Tantei_9th_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1934/142516.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1934/142516t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1934/142516l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1934/142516.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1934/142516t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1934/142516l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Oshiri Tantei 9th Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Butt Detective"
+        },
+        {
+          "type": "Japanese",
+          "title": "おしりたんてい"
+        }
+      ],
+      "title": "Oshiri Tantei 9th Season",
+      "title_english": null,
+      "title_japanese": "おしりたんてい",
+      "title_synonyms": ["Butt Detective"],
+      "type": "TV",
+      "source": "Picture book",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "20 min",
+      "rating": "PG - Children",
+      "score": null,
+      "scored_by": null,
+      "rank": 18585,
+      "popularity": 20772,
+      "members": 256,
+      "favorites": 4,
+      "synopsis": "Ninth season of Oshiri Tantei.",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "09:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 09:00 (JST)"
+      },
+      "producers": [],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 18,
+          "type": "anime",
+          "name": "Toei Animation",
+          "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 39,
+          "type": "anime",
+          "name": "Detective",
+          "url": "https://myanimelist.net/anime/genre/39/Detective"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 15,
+          "type": "anime",
+          "name": "Kids",
+          "url": "https://myanimelist.net/anime/genre/15/Kids"
+        }
+      ]
+    },
+    {
+      "mal_id": 60070,
+      "url": "https://myanimelist.net/anime/60070/Kaijuu_Sekai_Seifuku_TV",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1699/148350.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1699/148350t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1699/148350l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1699/148350.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1699/148350t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1699/148350l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "YUQywis1jEk",
+        "url": "https://www.youtube.com/watch?v=YUQywis1jEk",
+        "embed_url": "https://www.youtube.com/embed/YUQywis1jEk?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/YUQywis1jEk/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/YUQywis1jEk/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/YUQywis1jEk/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/YUQywis1jEk/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/YUQywis1jEk/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kaijuu Sekai Seifuku (TV)"
+        },
+        {
+          "type": "Japanese",
+          "title": "かいじゅうせかいせいふく"
+        }
+      ],
+      "title": "Kaijuu Sekai Seifuku (TV)",
+      "title_english": null,
+      "title_japanese": "かいじゅうせかいせいふく",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Web manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "2 min",
+      "rating": "G - All Ages",
+      "score": null,
+      "scored_by": null,
+      "rank": 16894,
+      "popularity": 15570,
+      "members": 719,
+      "favorites": 0,
+      "synopsis": "Following the chaotic and heartwarming daily lives of Kaijuu who have come to Earth to conquer the world and live with their human masters.",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "07:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 07:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 1719,
+          "type": "anime",
+          "name": "Kotobukiya",
+          "url": "https://myanimelist.net/anime/producer/1719/Kotobukiya"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 276,
+          "type": "anime",
+          "name": "DLE",
+          "url": "https://myanimelist.net/anime/producer/276/DLE"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 71,
+          "type": "anime",
+          "name": "Pets",
+          "url": "https://myanimelist.net/anime/genre/71/Pets"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 60446,
+      "url": "https://myanimelist.net/anime/60446/Masuda_Kousuke_Gekijou__Gag_Manga_Biyori_Go",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1957/146803.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1957/146803t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1957/146803l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1957/146803.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1957/146803t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1957/146803l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "RBfakSF4yc0",
+        "url": "https://www.youtube.com/watch?v=RBfakSF4yc0",
+        "embed_url": "https://www.youtube.com/embed/RBfakSF4yc0?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/RBfakSF4yc0/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/RBfakSF4yc0/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/RBfakSF4yc0/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/RBfakSF4yc0/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/RBfakSF4yc0/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Masuda Kousuke Gekijou: Gag Manga Biyori Go"
+        },
+        {
+          "type": "Japanese",
+          "title": "増田こうすけ劇場 ギャグマンガ日和GO"
+        },
+        {
+          "type": "English",
+          "title": "Gag Manga Biyori Go"
+        }
+      ],
+      "title": "Masuda Kousuke Gekijou: Gag Manga Biyori Go",
+      "title_english": "Gag Manga Biyori Go",
+      "title_japanese": "増田こうすけ劇場 ギャグマンガ日和GO",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "4 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": 17749,
+      "popularity": 13863,
+      "members": 1153,
+      "favorites": 4,
+      "synopsis": "Fifth season of Masuda Kousuke Gekijou: Gag Manga Biyori.",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 158,
+          "type": "anime",
+          "name": "Kids Station",
+          "url": "https://myanimelist.net/anime/producer/158/Kids_Station"
+        },
+        {
+          "mal_id": 1576,
+          "type": "anime",
+          "name": "DeNA",
+          "url": "https://myanimelist.net/anime/producer/1576/DeNA"
+        },
+        {
+          "mal_id": 2424,
+          "type": "anime",
+          "name": "Bandai Namco Filmworks",
+          "url": "https://myanimelist.net/anime/producer/2424/Bandai_Namco_Filmworks"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "REMOW",
+          "url": "https://myanimelist.net/anime/producer/3103/REMOW"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Studio Deen",
+          "url": "https://myanimelist.net/anime/producer/37/Studio_Deen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 57,
+          "type": "anime",
+          "name": "Gag Humor",
+          "url": "https://myanimelist.net/anime/genre/57/Gag_Humor"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 50418,
+      "url": "https://myanimelist.net/anime/50418/Ninjala_TV",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1552/119871.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1552/119871t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1552/119871l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1552/119871.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1552/119871t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1552/119871l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ninjala (TV)"
+        },
+        {
+          "type": "Japanese",
+          "title": "ニンジャラ"
+        }
+      ],
+      "title": "Ninjala (TV)",
+      "title_english": null,
+      "title_japanese": "ニンジャラ",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Game",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2022-01-08T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 8,
+            "month": 1,
+            "year": 2022
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 8, 2022 to ?"
+      },
+      "duration": "23 min",
+      "rating": "PG - Children",
+      "score": 5.56,
+      "scored_by": 431,
+      "rank": 12045,
+      "popularity": 10178,
+      "members": 3441,
+      "favorites": 24,
+      "synopsis": "The year is 20XX. The ninja, who once forged the history of Japan, were scattered across the country during the Meiji Restoration. As these ninja mingled with the other clans, their bloodline thinned, and they gradually faded from sight. The descendants of these ninja clans, seeking to preserve their heritage, formed the WNA (World Ninja Association) in the hope of carrying on their legacy.\n\nAnd so it was that the WNA succeeded in developing Ninja-Gum, an art which could summon forth the strength of the Shinobi. And yet creating the most powerful Ninja-Gum requires the strongest of ninja DNA. So it was that the Ninjala Tournament was held, that the mightiest of all ninjas could be found... \n\n(Source: Official Game website)",
+      "background": "The airing time was Saturdays 10:30 between January 8, 2022 and October 22, 2022 and Saturdays 10:00 beginning October 29, 2022 to September 30, 2023. The airing time is Saturday 7:00 beginning October 7, 2023",
+      "season": "winter",
+      "year": 2022,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "07:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 07:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 16,
+          "type": "anime",
+          "name": "TV Tokyo",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 376,
+          "type": "anime",
+          "name": "Sentai Filmworks",
+          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 28,
+          "type": "anime",
+          "name": "OLM",
+          "url": "https://myanimelist.net/anime/producer/28/OLM"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 32353,
+      "url": "https://myanimelist.net/anime/32353/Bonobono_TV_2016",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/13/77617.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/13/77617t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/13/77617l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/13/77617.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/13/77617t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/13/77617l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "seYMK1m4wsY",
+        "url": "https://www.youtube.com/watch?v=seYMK1m4wsY",
+        "embed_url": "https://www.youtube.com/embed/seYMK1m4wsY?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/seYMK1m4wsY/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/seYMK1m4wsY/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/seYMK1m4wsY/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/seYMK1m4wsY/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/seYMK1m4wsY/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Bonobono (TV 2016)"
+        },
+        {
+          "type": "Japanese",
+          "title": "ぼのぼの"
+        },
+        {
+          "type": "English",
+          "title": "Bono Bono"
+        },
+        {
+          "type": "German",
+          "title": "Bono Bono"
+        },
+        {
+          "type": "Spanish",
+          "title": "Bono Bono"
+        },
+        {
+          "type": "French",
+          "title": "Bono Bono"
+        }
+      ],
+      "title": "Bonobono (TV 2016)",
+      "title_english": "Bono Bono",
+      "title_japanese": "ぼのぼの",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "4-koma manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2016-04-02T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 2,
+            "month": 4,
+            "year": 2016
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 2, 2016 to ?"
+      },
+      "duration": "5 min",
+      "rating": "G - All Ages",
+      "score": 6.37,
+      "scored_by": 771,
+      "rank": 7934,
+      "popularity": 9903,
+      "members": 3784,
+      "favorites": 19,
+      "synopsis": "Based on the original comic BONO BONO by Mikio Igarashi that has seen over 9,000,000 total copies printed, this is the definitive animated version of the emotionally soothing character-driven series that will make you ask yourself the philosophical question, \"What are living things?\" while laughing at heartwarming gags and being entertained by the interactions of amusing forest friends Bonobono the young sea otter, Chipmunk, Fishing Cat, and more.\n\nEnjoy the easygoing days and minor misadventures of Bonobono and his friends!\n\n(Source: Fuji Creative)",
+      "background": "",
+      "season": "spring",
+      "year": 2016,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "04:52",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 04:52 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 169,
+          "type": "anime",
+          "name": "Fuji TV",
+          "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+        },
+        {
+          "mal_id": 1255,
+          "type": "anime",
+          "name": "Glovision",
+          "url": "https://myanimelist.net/anime/producer/1255/Glovision"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 191,
+          "type": "anime",
+          "name": "Eiken",
+          "url": "https://myanimelist.net/anime/producer/191/Eiken"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 51,
+          "type": "anime",
+          "name": "Anthropomorphic",
+          "url": "https://myanimelist.net/anime/genre/51/Anthropomorphic"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 60535,
+      "url": "https://myanimelist.net/anime/60535/Everyday_Host",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1634/146982.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1634/146982t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1634/146982l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1634/146982.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1634/146982t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1634/146982l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "b6hLbei1PWY",
+        "url": "https://www.youtube.com/watch?v=b6hLbei1PWY",
+        "embed_url": "https://www.youtube.com/embed/b6hLbei1PWY?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/b6hLbei1PWY/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/b6hLbei1PWY/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/b6hLbei1PWY/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/b6hLbei1PWY/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/b6hLbei1PWY/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Everyday Host"
+        },
+        {
+          "type": "Synonym",
+          "title": "Everyday Host Club"
+        },
+        {
+          "type": "Synonym",
+          "title": "Ebuhosu"
+        },
+        {
+          "type": "Japanese",
+          "title": "えぶりでいホスト"
+        }
+      ],
+      "title": "Everyday Host",
+      "title_english": null,
+      "title_japanese": "えぶりでいホスト",
+      "title_synonyms": ["Everyday Host Club", "Ebuhosu"],
+      "type": "TV",
+      "source": "4-koma manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "3 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 5.95,
+      "scored_by": 271,
+      "rank": 10276,
+      "popularity": 9087,
+      "members": 4888,
+      "favorites": 9,
+      "synopsis": "The story follows Hajime Sekiguchi, a former life insurance salesman who, in a moment of desperation, makes the unexpected leap into the world of hosts.\n\nAt Club One, Hajime finds himself surrounded by a cast of eccentric personalities: a \"younger brother\" type host with 20 years of experience, a former idol specializing in romantic sales tactics, and a hyper-aggressive host obsessed with mobile games. Despite thinking, \"This isn't a job for anyone with a sane mind,\" Hajime uses his polished insurance sales skills to attract clients and carve out a surprising niche for himself.\n\n(Source: MAL News)",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "01:13",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 01:13 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 16,
+          "type": "anime",
+          "name": "TV Tokyo",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 866,
+          "type": "anime",
+          "name": "Fanworks",
+          "url": "https://myanimelist.net/anime/producer/866/Fanworks"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        },
+        {
+          "mal_id": 57,
+          "type": "anime",
+          "name": "Gag Humor",
+          "url": "https://myanimelist.net/anime/genre/57/Gag_Humor"
+        },
+        {
+          "mal_id": 48,
+          "type": "anime",
+          "name": "Workplace",
+          "url": "https://myanimelist.net/anime/genre/48/Workplace"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 58614,
+      "url": "https://myanimelist.net/anime/58614/Teogonia",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1066/148358.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1066/148358t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1066/148358l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1066/148358.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1066/148358t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1066/148358l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "_qzw-m-nR3A",
+        "url": "https://www.youtube.com/watch?v=_qzw-m-nR3A",
+        "embed_url": "https://www.youtube.com/embed/_qzw-m-nR3A?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/_qzw-m-nR3A/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/_qzw-m-nR3A/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/_qzw-m-nR3A/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/_qzw-m-nR3A/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/_qzw-m-nR3A/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Teogonia"
+        },
+        {
+          "type": "Japanese",
+          "title": "神統記 (テオゴニア)"
+        },
+        {
+          "type": "English",
+          "title": "Teogonia"
+        }
+      ],
+      "title": "Teogonia",
+      "title_english": "Teogonia",
+      "title_japanese": "神統記 (テオゴニア)",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-12T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 12,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 12, 2025 to ?"
+      },
+      "duration": "23 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 6.48,
+      "scored_by": 1019,
+      "rank": 7245,
+      "popularity": 6062,
+      "members": 13379,
+      "favorites": 28,
+      "synopsis": "In the harsh region known as the borderlands, humans must fight an endless battle against demi-human creatures that come at them relentlessly, intent on taking their land and their gods. A young boy named Kai, fighting to defend his village, sustains a life-threatening injury that causes him to regain memories from a past life. If you're not a guardian bearer, it's like you're playing life on hard mode... Kai's newfound knowledge gives him a new sense of the unfair \"rule set\" that governs the world around him. One thing is clear: For those without a god to serve as their guardian, life is a constant struggle for survival. Thus begins the epic tale of a young boy's ascent into a vast world filled with magic, bloodshed, and mystery.\n\n(Source: J-Novel Club)",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "00:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 00:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 1333,
+          "type": "anime",
+          "name": "Hakuhodo DY Music & Pictures",
+          "url": "https://myanimelist.net/anime/producer/1333/Hakuhodo_DY_Music___Pictures"
+        },
+        {
+          "mal_id": 1468,
+          "type": "anime",
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        },
+        {
+          "mal_id": 2408,
+          "type": "anime",
+          "name": "WOWMAX",
+          "url": "https://myanimelist.net/anime/producer/2408/WOWMAX"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 406,
+          "type": "anime",
+          "name": "Asahi Production",
+          "url": "https://myanimelist.net/anime/producer/406/Asahi_Production"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 59070,
+      "url": "https://myanimelist.net/anime/59070/Guilty_Gear_Strive__Dual_Rulers",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1199/147623.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1199/147623t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1199/147623l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1199/147623.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1199/147623t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1199/147623l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "pV7AYA50Dd4",
+        "url": "https://www.youtube.com/watch?v=pV7AYA50Dd4",
+        "embed_url": "https://www.youtube.com/embed/pV7AYA50Dd4?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/pV7AYA50Dd4/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/pV7AYA50Dd4/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/pV7AYA50Dd4/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/pV7AYA50Dd4/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/pV7AYA50Dd4/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Guilty Gear Strive: Dual Rulers"
+        },
+        {
+          "type": "Japanese",
+          "title": "GUILTY GEAR STRIVE: DUAL RULERS"
+        },
+        {
+          "type": "English",
+          "title": "Guilty Gear Strive: Dual Rulers"
+        }
+      ],
+      "title": "Guilty Gear Strive: Dual Rulers",
+      "title_english": "Guilty Gear Strive: Dual Rulers",
+      "title_japanese": "GUILTY GEAR STRIVE: DUAL RULERS",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Game",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "23 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 5.92,
+      "scored_by": 1350,
+      "rank": 10453,
+      "popularity": 5712,
+      "members": 15582,
+      "favorites": 47,
+      "synopsis": "After the decline of the once robust fields of science and technology, a new energy source known as magic fuels the modern era. Humanity creates forbidden biological weapons: Gears. Those Gears eventually stand against humanity in a rebellion. Although they manage to overcome in the struggle for survival known as the Crusades, humanity's losses are so great that even after several decades pass, their emotional wounds remain unable to fully heal.\n\nSin Kiske, the child of a human and a Gear, heads to his father Ky and mother Dizzy's wedding ceremony. Their wedding breaks the ultimate taboo: a union between a human and a Gear. Even with the world at peace, it took many years for such a ceremony to come to fruition. Despite the complex array of emotions surrounding it, the wedding ceremony is met with blessings. When suddenly, a mysterious girl appears... The fated child inheriting Gear blood–and the mysterious girl who despises Gears. Their meeting would shake the world.\n\n(Source: Official site)",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 306,
+          "type": "anime",
+          "name": "Magic Capsule",
+          "url": "https://myanimelist.net/anime/producer/306/Magic_Capsule"
+        },
+        {
+          "mal_id": 1261,
+          "type": "anime",
+          "name": "Good Smile Company",
+          "url": "https://myanimelist.net/anime/producer/1261/Good_Smile_Company"
+        },
+        {
+          "mal_id": 1500,
+          "type": "anime",
+          "name": "ABC Animation",
+          "url": "https://myanimelist.net/anime/producer/1500/ABC_Animation"
+        },
+        {
+          "mal_id": 1779,
+          "type": "anime",
+          "name": "NewGin",
+          "url": "https://myanimelist.net/anime/producer/1779/NewGin"
+        },
+        {
+          "mal_id": 1883,
+          "type": "anime",
+          "name": "APDREAM",
+          "url": "https://myanimelist.net/anime/producer/1883/APDREAM"
+        },
+        {
+          "mal_id": 2228,
+          "type": "anime",
+          "name": "Bushiroad Move",
+          "url": "https://myanimelist.net/anime/producer/2228/Bushiroad_Move"
+        },
+        {
+          "mal_id": 3105,
+          "type": "anime",
+          "name": "Arc System Works",
+          "url": "https://myanimelist.net/anime/producer/3105/Arc_System_Works"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 537,
+          "type": "anime",
+          "name": "SANZIGEN",
+          "url": "https://myanimelist.net/anime/producer/537/SANZIGEN"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 58812,
+      "url": "https://myanimelist.net/anime/58812/Shin_Samurai-den_Yaiba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1073/149267.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1073/149267t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1073/149267l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1073/149267.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1073/149267t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1073/149267l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "7noPMIddli4",
+        "url": "https://www.youtube.com/watch?v=7noPMIddli4",
+        "embed_url": "https://www.youtube.com/embed/7noPMIddli4?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/7noPMIddli4/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/7noPMIddli4/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/7noPMIddli4/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/7noPMIddli4/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/7noPMIddli4/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Shin Samurai-den Yaiba"
+        },
+        {
+          "type": "Japanese",
+          "title": "真･侍伝 YAIBA"
+        },
+        {
+          "type": "English",
+          "title": "Yaiba: Samurai Legend"
+        }
+      ],
+      "title": "Shin Samurai-den Yaiba",
+      "title_english": "Yaiba: Samurai Legend",
+      "title_japanese": "真･侍伝 YAIBA",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "23 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.66,
+      "scored_by": 2655,
+      "rank": 1422,
+      "popularity": 4823,
+      "members": 24058,
+      "favorites": 67,
+      "synopsis": "The protagonist, Kurogane Yaiba, is a samurai wild child who trains in the jungle with his father, Kenjurou. By a twist of fate, the determined samurai, Yaiba, returns to Japan and encounters his rival, Onimaru Takeshi. Yaiba, who lives for serious battles, embarks on a spectacular adventure when Onimaru obtains the \"Legendary Demon Sword!\" \n\n(Source: Shogakukan, edited)",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "17:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 17:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Shogakukan-Shueisha Productions",
+          "url": "https://myanimelist.net/anime/producer/62/Shogakukan-Shueisha_Productions"
+        },
+        {
+          "mal_id": 76,
+          "type": "anime",
+          "name": "Yomiuri Telecasting",
+          "url": "https://myanimelist.net/anime/producer/76/Yomiuri_Telecasting"
+        },
+        {
+          "mal_id": 474,
+          "type": "anime",
+          "name": "Shogakukan Music & Digital Entertainment",
+          "url": "https://myanimelist.net/anime/producer/474/Shogakukan_Music___Digital_Entertainment"
+        },
+        {
+          "mal_id": 1294,
+          "type": "anime",
+          "name": "Sound Team Don Juan",
+          "url": "https://myanimelist.net/anime/producer/1294/Sound_Team_Don_Juan"
+        },
+        {
+          "mal_id": 1430,
+          "type": "anime",
+          "name": "Shogakukan",
+          "url": "https://myanimelist.net/anime/producer/1430/Shogakukan"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 119,
+          "type": "anime",
+          "name": "VIZ Media",
+          "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 858,
+          "type": "anime",
+          "name": "Wit Studio",
+          "url": "https://myanimelist.net/anime/producer/858/Wit_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 21,
+          "type": "anime",
+          "name": "Samurai",
+          "url": "https://myanimelist.net/anime/genre/21/Samurai"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60334,
+      "url": "https://myanimelist.net/anime/60334/Anne_Shirley",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1674/147871t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1674/147871l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1674/147871.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1674/147871t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1674/147871l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "GXUaLD071as",
+        "url": "https://www.youtube.com/watch?v=GXUaLD071as",
+        "embed_url": "https://www.youtube.com/embed/GXUaLD071as?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/GXUaLD071as/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/GXUaLD071as/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/GXUaLD071as/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/GXUaLD071as/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/GXUaLD071as/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Anne Shirley"
+        },
+        {
+          "type": "Japanese",
+          "title": "アン・シャーリー"
+        },
+        {
+          "type": "English",
+          "title": "Anne Shirley"
+        }
+      ],
+      "title": "Anne Shirley",
+      "title_english": "Anne Shirley",
+      "title_japanese": "アン・シャーリー",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Novel",
+      "episodes": 24,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 5, 2025 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.76,
+      "scored_by": 2670,
+      "rank": 1131,
+      "popularity": 4674,
+      "members": 25797,
+      "favorites": 82,
+      "synopsis": "Life is not easy for Anne Shirley, an 11-year-old orphan with a vast imagination and a short temper. In a twist of fate, she gets taken into the Cuthbert house in Avonlea. The elderly occupants Marilla and Matthew Cuthbert were looking for a young boy to help in the fields, but they're in for quite a shock when they realize Anne is a girl.\n\nAdapted from the acclaimed classic by L. M. Montgomery, Akage no Anne portrays Anne's upbringing from 11 to 17 years of age and her encounters and separations with various people. Only time will tell what major decision Anne has to make that will change her life forever.\n\n[Written by MAL Rewrite]",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "18:25",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 18:25 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 769,
+          "type": "anime",
+          "name": "Fujipacific Music",
+          "url": "https://myanimelist.net/anime/producer/769/Fujipacific_Music"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 229,
+          "type": "anime",
+          "name": "The Answer Studio",
+          "url": "https://myanimelist.net/anime/producer/229/The_Answer_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 13,
+          "type": "anime",
+          "name": "Historical",
+          "url": "https://myanimelist.net/anime/genre/13/Historical"
+        }
+      ],
+      "demographics": []
+    }
+  ]
+}

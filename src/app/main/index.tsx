@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
+import { useSearchParams } from 'next/navigation';
+
 import { useOnValue } from '@/hooks/useOnValue';
 import { TimerFetch } from '@/lib/fetch';
 
@@ -17,22 +19,26 @@ import { AnimeType } from './types';
 const time = new TimerFetch();
 
 const Main = () => {
-  const [tab, setTab] = useState<AnimeType>(AnimeType.list);
-
   const func = useOnValue();
+  const search = useSearchParams();
+
+  const [tab, setTab] = useState<AnimeType>(AnimeType.list);
 
   useEffect(() => {
     const controller = new AbortController();
     const signal = controller.signal;
-    fetch(signal);
+    const type = search.get('tab') as AnimeType;
+
+    fetch(type, signal);
+    setTab(type ?? AnimeType.list);
     return () => {
       controller.abort();
     };
-  }, []);
+  }, [search]);
 
-  async function fetch(signal: AbortSignal) {
+  async function fetch(type: string, signal: AbortSignal) {
     time.start();
-    await Promise.allSettled([func.onAnime('', signal), func.onAnime(AnimeType.list, signal), func.onReview(signal)]);
+    await Promise.allSettled([func.onAnime(type, signal), func.onAnime(AnimeType.list, signal), func.onReview(signal)]);
     await time.stop();
   }
 
@@ -54,6 +60,7 @@ const Main = () => {
       setTab(val as AnimeType);
     };
   })();
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -61,7 +68,7 @@ const Main = () => {
       <main className="container mx-auto px-4 py-8">
         {/* <TrendingSection /> */}
         <section className="mb-12">
-          <Tabs defaultValue={AnimeType.list} className="w-full" onValueChange={handleTab}>
+          <Tabs defaultValue={AnimeType.list} value={tab} className="w-full" onValueChange={handleTab}>
             <TabsHeader />
             <TabAnime type={tab} />
           </Tabs>
